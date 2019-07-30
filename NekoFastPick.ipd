@@ -650,7 +650,7 @@
 //                Q u i v e r s             //
 //                                          //
 //////////////////////////////////////////////
- 
+ [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [local_attack_speed_+%] < "12" && [physical_damage_%_to_add_as_cold] == "20" && [ForceSellItem] == "true"
 
   
 //////////////////////////////////////////////
@@ -731,7 +731,7 @@
 
 // Evasion Boots
 [Type] == "Deerskin Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Deerstalker
-[Type] == "Goathide Boots" && [Rarity] == "Unique" # [dexterity] > "1" && [ForceSellItem] == "true" // Victario's Flight
+[Type] == "Goathide Boots" && [Rarity] == "Unique" # [178] == "15" && [579] == "15" && [ForceSellItem] == "true"
 // [Type] == "Goathide Boots" && [Rarity] == "Unique" # [strength] >= "20" && [ForceSellItem] == "true" // Abberath's Hooves
 //[Type] == "Nubuck Boots" && [Rarity] == "Unique" # [base_item_found_quantity_+%] <= "18" && [ForceSellItem] == "true" // Goldwyrm
 // [Type] == "Rawhide Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Seven-League Step
