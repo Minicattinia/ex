@@ -281,7 +281,7 @@
 [Type] == "The Lich" # [ForceSellItem] == "true" // Midnight Bargain -- Sawbones
 [Type] == "Light and Truth" # [ForceSellItem] == "true" // unique Crystal Sceptre -- Palace Map (map) / Residence Map (map) / Villa Map (map)
 [Type] == "The Lord in Black" # [ForceSellItem] == "true" // Magic Ring of Bameth (83) -- Bameth, Shifting Darkness
-[Type] == "The Lover" # [ForceSellItem] == "true" // Jewelry (79) -- Graveyard/Maelström of Chaos/Necropolis (map)
+[Type] == "The Lover" # [ForceSellItem] == "true" // Jewelry (79) -- Graveyard/Maelstr?m of Chaos/Necropolis (map)
 [Type] == "The Lunaris Priestess" # [ForceSellItem] == "true" // Sire of Shards -- Lunaris Temple 2 (zone)
 [Type] == "The Mercenary" # [ForceSellItem] == "true" // Unique Shield -- Broken Bridge (zone)/ Coves/Gorge (map)
 [Type] == "Merciless Armament" # [ForceSellItem] == "true" // Magic merciless 2-Handed Weapon (100) -- Colonnade (map)
@@ -301,7 +301,7 @@
 [Type] == "Scholar of the Seas" # [ForceSellItem] == "true" // Mao Kun -- Ship Graveyard (zone)/ Coves/Reef (map)
 [Type] == "Shard of Fate" # [ForceSellItem] == "true" // Magic Vivid Jewel -- Chamber of Sins (zone)
 [Type] == "The Sigil" # [ForceSellItem] == "true" // Unassailable Amulet -- Overgrown Shrine (map)
-[Type] == "The Siren" # [ForceSellItem] == "true" // The Wispering Ice (corrupted) -- Graveyard/Maelström of Chaos/Necropolis (map)
+[Type] == "The Siren" # [ForceSellItem] == "true" // The Wispering Ice (corrupted) -- Graveyard/Maelstr?m of Chaos/Necropolis (map)
 [Type] == "The Spoiled Prince" # [ForceSellItem] == "true" // Dictator's Prophecy Wand (100) -- Museum (map)
 [Type] == "The Stormcaller" # [ForceSellItem] == "true" // Agnerod Staff -- Torture Chamber (map)
 [Type] == "Struck By Lightning" # [ForceSellItem] == "true" // Random Magic Jewelry -- Castle Ruins or Combine 3 MAgic Items with Electrocuting Prefix
@@ -346,10 +346,10 @@
 [Type] == "Sacrifice at Noon" # [StashItem] == "true" //Sacrifice map
 [Type] == "Sacrifice at Dusk" # [StashItem] == "true" //Sacrifice map
 [Type] == "Sacrifice at Midnight" # [StashItem] == "true" //Sacrifice map
-[Type] == "Mortal Grief" # [StashItem] == "true" //Über map
-[Type] == "Mortal Rage" # [StashItem] == "true" //Über map
-[Type] == "Mortal Ignorance" # [StashItem] == "true" //Über map
-[Type] == "Mortal Hope" # [StashItem] == "true" //Über map
+[Type] == "Mortal Grief" # [StashItem] == "true" //?ber map
+[Type] == "Mortal Rage" # [StashItem] == "true" //?ber map
+[Type] == "Mortal Ignorance" # [StashItem] == "true" //?ber map
+[Type] == "Mortal Hope" # [StashItem] == "true" //?ber map
 [Category] == "Map" # [StashItem] == "true"
 // Tier 1
 [Type] == "Arcade Map" # [StashItem] == "true"
@@ -587,6 +587,12 @@
  [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_resist_all_elements_%] >= "8" && [StashItem] == "true" // Keep all resist mod jewel
  [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [damage_over_time_+%] >= "10" && [StashItem] == "true" // Keep DoT mod jewel (Poison/Chaos builds)
  [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [critical_strike_chance_+%] >= "20" && [StashItem] == "true" // Keep double crit chance mod jewel
+ 
+ //Sell Unique Jewell
+ 
+ [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [chance_to_gain_unholy_might_on_melee_kill_%] == "5" && [ForceSellItem] == "true"
+ 
+ 
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
 //                             U N I Q U E  I T E M S                              //
@@ -607,7 +613,8 @@
 //[Type] == "Blue Pearl Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Gloomfang
 // [Type] == "Citrine Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Daresso's Salute / Eye of Innocence
 [Type] == "Coral Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Araku Tiki / Ngamahu Tiki
-// [Type] == "Gold Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Ascetic / Demigod's Presence / Ignomon / Winterheart / Bisco's Collar / Effigon
+[Type] == "Gold Amulet" && [Rarity] == "Unique" # [maximum_life_+%] >= "50"&& [maximum_cold_damage_resistance_%] == "75" && [ForceSellItem] == "true" //Winterheart
+// [Type] == "Gold Amulet" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Ascetic / Demigod's Presence / Ignomon / Bisco's Collar / Effigon
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # [cannot_gain_power_charges] == "true" && [ForceSellItem] == "true" // Rashkaldor's Patience
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # [accuracy_rating] > "10" && [ForceSellItem] == "true" // Karui Ward
 [Type] == "Lapis Amulet" && [Rarity] == "Unique" # [accuracy_rating] > "10" && [ForceSellItem] == "true"
@@ -631,8 +638,8 @@
 [Type] == "Cloth Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Perandus Blazon / Soulthirst / Sunblast / Soul Tether / Flow Untethered
 [Type] == "Crystal Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Auxium
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Belt of the Deceiver / Doryani's Invitation / Dyadian Dawn / Meginord's Girdle / Bisco's Leash
-// [Type] == "Leather Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Headhunter / Immortal Flesh / Wurm's Molt / Umbilicus Immortalis / Cyclopean Coil
-// [Type] == "Rustic Sash" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Faminebind / Feastbind / Prismweave / The Retch / Chains of Time
+//[Type] == "Leather Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Headhunter / Immortal Flesh / Wurm's Molt / Umbilicus Immortalis / Cyclopean Coil
+[Type] == "Rustic Sash" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Faminebind / Feastbind / Prismweave / The Retch / Chains of Time
 [Type] == "Studded Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Magnate / Ryslatha's Coil / Tactician / Nomad
 [Type] == "Stygian Vise" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Darkness Enthroned
 [Type] == "Vanguard Belt" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Perseverance
@@ -650,9 +657,13 @@
 //                Q u i v e r s             //
 //                                          //
 //////////////////////////////////////////////
- [Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [local_attack_speed_+%] < "12" && [physical_damage_%_to_add_as_cold] == "20" && [ForceSellItem] == "true"
-
-  
+[Type] == "Two-Point Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true"
+[Type] == "Sharktooth Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" //
+[Type] == "Serrated Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" //
+[Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" //
+[Type] == "Fire Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" //
+[Type] == "Broadhead Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" //
+[Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique" # [ForceSellItem] == "true" //
 //////////////////////////////////////////////
 //                                          //
 //                A r m o u r               //
@@ -731,7 +742,7 @@
 
 // Evasion Boots
 [Type] == "Deerskin Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Deerstalker
-[Type] == "Goathide Boots" && [Rarity] == "Unique" # [178] == "15" && [579] == "15" && [ForceSellItem] == "true"
+[Type] == "Goathide Boots" && [Rarity] == "Unique" # [	additional_intelligence] == "15" && [additional_dexterity] == "15" && [ForceSellItem] == "true"
 // [Type] == "Goathide Boots" && [Rarity] == "Unique" # [strength] >= "20" && [ForceSellItem] == "true" // Abberath's Hooves
 //[Type] == "Nubuck Boots" && [Rarity] == "Unique" # [base_item_found_quantity_+%] <= "18" && [ForceSellItem] == "true" // Goldwyrm
 // [Type] == "Rawhide Boots" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Seven-League Step
@@ -1050,7 +1061,7 @@
 [Type] == "Judgement Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Hegemony's Era / Pledge of Hands
 [Type] == "Lathi" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Searing Touch
 [Type] == "Long Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Pillar of the Caged God
-[Type] == "Maelström Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Taryn's Shiver
+[Type] == "Maelstr?m Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Taryn's Shiver
 [Type] == "Military Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Tremor Rod
 [Type] == "Primordial Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Femurs of the Saints
 [Type] == "Royal Staff" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Stormheart
