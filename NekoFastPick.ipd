@@ -47,7 +47,19 @@
 [Type] == "Prophecy" # [StashItem] == "true"
 [Type] == "Stacked Deck" # [StashItem] == "true"
 [Type] == "Unshaping Orb" # [StashItem] == "true"
-
+// O i l
+[Type] == "Clear Oil" # [StashItem] == "true" // Orb of Annulment
+[Type] == "Sepia Oil" # [StashItem] == "true" // Orb of Binding
+[Type] == "Amber Oil" # [StashItem] == "true" // Orb of Horizons
+[Type] == "Verdant Oil" # [StashItem] == "true" // Harbinger's Orb
+[Type] == "Teal Oil" # [StashItem] == "true" // Engineer's Orb
+[Type] == "Azure Oil" # [StashItem] == "true" // Ancient Orb
+[Type] == "Violet Oil" # [StashItem] == "true" // Annulment Shard
+[Type] == "Crimson Oil" # [StashItem] == "true" // Binding Shard
+[Type] == "Black Oil" # [StashItem] == "true" // Horizon Shard
+[Type] == "Opalescent Oil" # [StashItem] == "true" // Harbinger's Shard
+[Type] == "Silver Oil" # [StashItem] == "true" // Engineer's Shard
+[Type] == "Golden Oil" # [StashItem] == "true" // Ancient Shard
 // Harbinger currencies
 [Type] == "Orb of Annulment" # [StashItem] == "true" // Orb of Annulment
 [Type] == "Orb of Binding" # [StashItem] == "true" // Orb of Binding
@@ -117,7 +129,45 @@
 [Type] == "Vial of Sacrifice" # [StashItem] == "true" // Vial of Sacrifice
 [Type] == "Bestiary Orb" # [StashItem] == "true" // Stash all Bestiary Orbs
 [Type] == "Imprinted Bestiary Orb" # [StashItem] == "true" // Stash all Imprinted Bestiary Orbs
-
+// Scarab
+[Type] == "Gilded Ambush Scarab" # [StashItem] == "true"
+[Type] == "Gilded Bestiary Scarab" # [StashItem] == "true"
+[Type] == "Gilded ฺBreach Scarab" # [StashItem] == "true"
+[Type] == "Gilded Cartography Scarab" # [StashItem] == "true"
+[Type] == "Gilded Divination Scarab" # [StashItem] == "true"
+[Type] == "Gilded Elder Scarab" # [StashItem] == "true"
+[Type] == "Gilded Harbinger Scarab" # [StashItem] == "true"
+[Type] == "Gilded Perandus Scarab" # [StashItem] == "true"
+[Type] == "Gilded Reliquary Scarab" # [StashItem] == "true"
+[Type] == "Gilded Shaper Scarab" # [StashItem] == "true"
+[Type] == "Gilded Sulphite Scarab" # [StashItem] == "true"
+[Type] == "Gilded Torment Scarab" # [StashItem] == "true"
+[Type] == "Polished Ambush Scarab" # [StashItem] == "true"
+[Type] == "Polished Bestiary Scarab" # [StashItem] == "true"
+[Type] == "Polished Breach Scarab" # [StashItem] == "true"
+[Type] == "Polished Cartography Scarab" # [StashItem] == "true"
+[Type] == "Polished Divination Scarab" # [StashItem] == "true"
+[Type] == "Polished Elder Scarab" # [StashItem] == "true"
+[Type] == "Polished Harbinger Scarab" # [StashItem] == "true"
+[Type] == "Polished Legion Scarab" # [StashItem] == "true"
+[Type] == "Polished Perandus Scarab" # [StashItem] == "true"
+[Type] == "Polished Reliquary Scarab" # [StashItem] == "true"
+[Type] == "Polished Shaper Scarab" # [StashItem] == "true"
+[Type] == "Polished Sulphite Scarab" # [StashItem] == "true"
+[Type] == "Polished Torment Scarab" # [StashItem] == "true"
+[Type] == "Rusted Ambush Scarab" # [StashItem] == "true"
+[Type] == "Rusted Bestiary Scarab" # [StashItem] == "true"
+[Type] == "Rusted Breach Scarab" # [StashItem] == "true"
+[Type] == "Rusted Cartography Scarab" # [StashItem] == "true"
+[Type] == "Rusted Divination Scarab" # [StashItem] == "true"
+[Type] == "Rusted Elder Scarab" # [StashItem] == "true"
+[Type] == "Rusted Harbinger Scarab" # [StashItem] == "true"
+[Type] == "Rusted Legion Scarab" # [StashItem] == "true"
+[Type] == "Rusted Perandus Scarab" # [StashItem] == "true"
+[Type] == "Rusted Reliquary Scarab" # [StashItem] == "true"
+[Type] == "Rusted Shaper Scarab" # [StashItem] == "true"
+[Type] == "Rusted Sulphite Scarab" # [StashItem] == "true"
+[Type] == "Rusted Torment Scarab" # [StashItem] == "true"
 // A B Y S S 
 [Type] == "Stygian Vise" && [Rarity] == "Unique" # [StashItem] == "true" // Darkness Enthroned
 [Type] == "Stygian Vise" && [Rarity] == "Rare" # [StashItem] == "true"
