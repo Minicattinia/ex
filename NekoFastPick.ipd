@@ -283,7 +283,13 @@
 [Type] == "Remnant of Corruption" # [StashItem] == "true"
 
 //T A L I S M A N
-[Category] == "Talisman" && [Rarity] == "Rare" # [StashItem] == "true"// Keep all rare talismans
+[Category] == "Talisman" && [Rarity] == "Rare" && [base_item_found_quantity_+%] >= "8" # [StashItem] == "true"// Keep all rare talismans
+[Category] == "Talisman" && [Rarity] == "Rare" && [spell_damage_+%] >= "50" # [StashItem] == "true"// Keep all rare talismans
+[Category] == "Talisman" && [Rarity] == "Rare" && [TotalFireSpellDamage] >= "40" # [StashItem] == "true"// Keep all rare talismans
+[Category] == "Talisman" && [Rarity] == "Rare" && [TotalColdSpellDamage] >= "40" # [StashItem] == "true"// Keep all rare talismans
+[Category] == "Talisman" && [Rarity] == "Rare" && [TotalLightningSpellDamage] >= "40" # [StashItem] == "true"// Keep all rare talismans
+[Category] == "Talisman" && [Rarity] == "Rare" && [Physical DPS] >= "40" # [StashItem] == "true"// Keep all rare talismans
+[Category] == "Talisman" && [Rarity] == "Rare" && [resist_all_elements_%] > "50" # [StashItem] == "true"// Keep all rare talismans
 [Category] == "Talisman" && [Rarity] == "Unique" # [StashItem] == "true" // Keep all unique talismans
 
 //Gem
