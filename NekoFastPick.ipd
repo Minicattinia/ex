@@ -4,8 +4,10 @@
 [Category] == "Amulet" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
 [Category] == "Ring" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
 [Category] == "Belt" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
-[Category] == "One Hand Weapons" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
-
+[Category] == "Dagger" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
+[Category] == "Wand" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
+[Category] == "Claws" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
+[Category] == "Rune Dagger" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
 //                                  CURRENCY                                       //
@@ -88,6 +90,14 @@
 
 [Type] == "Albino Rhoa Feather" # [StashItem] == "true" // Albino Rhoa Feather
 [Type] == "Offering to the Goddess" # [StashItem] == "true" // Just in case bot picks up out of inventory
+//Catalyst
+[Type] == "Abrasive Catalyst" # [StashItem] == "true"
+[Type] == "Fertile Catalyst" # [StashItem] == "true"
+[Type] == "Imbued Catalyst" # [StashItem] == "true"
+[Type] == "Intrinsic Catalyst" # [StashItem] == "true"
+[Type] == "Prismatic Catalyst" # [StashItem] == "true"
+[Type] == "Tempering Catalyst" # [StashItem] == "true"
+[Type] == "Turbulent Catalyst" # [StashItem] == "true"
 
 //Devale
 [Type] == "Aberrant Fossil" # [ForceSellItem] == "true"
