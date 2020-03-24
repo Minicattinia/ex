@@ -4,10 +4,7 @@
 [Category] == "Amulet" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
 [Category] == "Ring" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
 [Category] == "Belt" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
-[Category] == "Dagger" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
-[Category] == "Wand" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
-[Category] == "Claws" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
-[Category] == "Rune Dagger" && [Rarity] == "Rare" # [DPS] > "10000" && [StashItem] == "true"
+
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
 //                                  CURRENCY                                       //
@@ -70,6 +67,7 @@
 [Type] == "Opalescent Oil" # [StashItem] == "true" // Harbinger's Shard
 [Type] == "Silver Oil" # [StashItem] == "true" // Engineer's Shard
 [Type] == "Golden Oil" # [StashItem] == "true" // Ancient Shard
+
 // Harbinger currencies
 [Type] == "Orb of Annulment" # [StashItem] == "true" // Orb of Annulment
 [Type] == "Orb of Binding" # [StashItem] == "true" // Orb of Binding
@@ -87,9 +85,9 @@
 [Type] == "Mirror Shard" # [StashItem] == "true" // Mirror Shard
 [Type] == "Exalted Shard" # [StashItem] == "true" // Exalted Shard
 [Type] == "Regal Shard" # [StashItem] == "true" // Regal Shard
-
 [Type] == "Albino Rhoa Feather" # [StashItem] == "true" // Albino Rhoa Feather
 [Type] == "Offering to the Goddess" # [StashItem] == "true" // Just in case bot picks up out of inventory
+
 //Catalyst
 [Type] == "Abrasive Catalyst" # [StashItem] == "true"
 [Type] == "Fertile Catalyst" # [StashItem] == "true"
@@ -147,6 +145,7 @@
 [Type] == "Vial of Sacrifice" # [StashItem] == "true" // Vial of Sacrifice
 [Type] == "Bestiary Orb" # [StashItem] == "true" // Stash all Bestiary Orbs
 [Type] == "Imprinted Bestiary Orb" # [StashItem] == "true" // Stash all Imprinted Bestiary Orbs
+
 // Scarab
 [Type] == "Gilded Ambush Scarab" # [StashItem] == "true"
 [Type] == "Gilded Bestiary Scarab" # [StashItem] == "true"
@@ -186,6 +185,7 @@
 [Type] == "Rusted Shaper Scarab" # [StashItem] == "true"
 [Type] == "Rusted Sulphite Scarab" # [StashItem] == "true"
 [Type] == "Rusted Torment Scarab" # [StashItem] == "true"
+
 // A B Y S S 
 [Type] == "Stygian Vise" && [Rarity] == "Unique" # [StashItem] == "true" // Darkness Enthroned
 [Type] == "Stygian Vise" && [Rarity] == "Rare" # [StashItem] == "true"
@@ -299,10 +299,11 @@
 [Type] == "Essence of Horror" # [StashItem] == "true"
 [Type] == "Essence of Delirium" # [StashItem] == "true"
 [Type] == "Remnant of Corruption" # [StashItem] == "true"
+
 // Delirium
-[Type] == "Small Cluster Jewel" 	# [StashItem] == "true"
-[Type] == "Medium Cluster Jewel" 	# [StashItem] == "true"
-[Type] == "Large Cluster Jewel" 	# [StashItem] == "true"
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	# [StashItem] == "true"
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare"	# [StashItem] == "true"
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare"	# [StashItem] == "true"
 [Type] == "Abyssal Delirium Orb" 	# [StashItem] == "true"
 [Type] == "Blighted Delirium Orb" 	# [StashItem] == "true"
 [Type] == "Diviner's Delirium Orb" 	# [StashItem] == "true"
@@ -349,83 +350,7 @@
 
 //Cards
 [Category] == "Card" # [StashItem] == "true" // Collect all divination cards
-[Type] == "Anarchy's Price" # [ForceSellItem] == "true" // Voltaxic Rift (Corrupted)-- Rogue Exiles
-[Type] == "Assassin's Favour" # [ForceSellItem] == "true" // Unique Dagger -- The Marketplace/Arcade/Bazaar (map)
-[Type] == "The Battle Born" # [ForceSellItem] == "true" // Unique Axe -- Kaom's Dream/Kaom's Path/Abyss/Volcano (map)
-[Type] == "The Betrayal" # [ForceSellItem] == "true" // Maligaro's Virtuosity -- Broken Bridge/Western Forest/Wetlands (map)
-[Type] == "The Blazing Fire" # [ForceSellItem] == "true" // Chin Sol -- unknown
-[Type] == "Birth of the Three" # [ForceSellItem] == "true" // Goddess Bound -- Hillock
-[Type] == "Call to the First Ones" # [ForceSellItem] == "true" // Talisman T1 (Corrupted) -- Barrows/Burial Chambers/Spider Forest/Graveyard (map)
-[Type] == "The Carrion Crow" # [ForceSellItem] == "true" // Life Armour -- Aqueduct/Battlefront/City of Sarn/Ebony Barracks/Western Forest/Colonnade/Waterways
-[Type] == "Cartographer's Delight" # [ForceSellItem] == "true" // Map T5 -- The Docks Merc (zone)
-[Type] == "Death" # [ForceSellItem] == "true" // Mon'tregul's Grasp -- Fetid Pool (zone)/Bog/Mud Geyser (map)
-[Type] == "The Demoness" # [ForceSellItem] == "true" // Death's Hand -- Northern Forest (zone)
-[Type] == "Destined to Crumble" # [ForceSellItem] == "true" // Body Armour (rare iLvl 100) -- Museum/Academy (map)
-[Type] == "Doedre's Madness" # [ForceSellItem] == "true" // Doedre Item -- Doedre Darktongue/ Core (map)
-[Type] == "The Doppelganger" # [ForceSellItem] == "true" // Q20 Mirror Arrow -- Crossroads (zone)
-[Type] == "The Dragon" # [ForceSellItem] == "true" // Coruscating Elixir -- Norther Forest (zone)/ Dark Forest (map)
-[Type] == "Dying Anguish" # [ForceSellItem] == "true" // Lvl 19 Skill Gem -- Marketplace/Docks/Ebony Barracks/City of Sarn (zone)
-[Type] == "The Encroaching Darkness" # [ForceSellItem] == "true" // Map (Corrupted) -- Vaal Ruins (zone/merc)
-[Type] == "The Endurance" # [ForceSellItem] == "true" // Vivid Crimson Magic Jewel -- Crystal Veins / Mines / Excavation / Quarry (zones)
-[Type] == "The Explorer" # [ForceSellItem] == "true" // Map (corrupted) -- Dread Thicket (zone/merc)/ Thicket (map)
-[Type] == "The Feast" # [ForceSellItem] == "true" // Romira's Banquet (corrupted) -- Market/Slums/Warehouse Sewers (zone)/Sewer/Waste Pool (map)
-[Type] == "The Flora's Gift" # [ForceSellItem] == "true" // 5L Staff -- Tropical Island (map)
-[Type] == "The Forsaken" # [ForceSellItem] == "true" // Umbilicus Immortalis -- Unknown
-[Type] == "The Gambler" # [ForceSellItem] == "true" // Divination Card -- Any map area 
-[Type] == "The Gentleman" # [ForceSellItem] == "true" // Unique Sword (corrupted) -- Slums (zone)/ Ghetto/Precinct (map)
-[Type] == "The Harvester" # [ForceSellItem] == "true" // The Harvest (Axe) -- Crossroads (zone)
-[Type] == "Her Mask" # [ForceSellItem] == "true" // Sacrifice Fragment -- Any Map
-[Type] == "The Hermit" # [ForceSellItem] == "true" // Lifesprig -- Broken Bridge/Crossroads/Dread Thicket/Fellshrine/Northern,Southern,Western Forest/Old Fields/Riverways/Wetlands
-[Type] == "Heterochromia" # [ForceSellItem] == "true" // Unique Two-Stone Ring -- Gorge (map)
-[Type] == "Hope" # [ForceSellItem] == "true" // Prismatic Ring (corrupted) -- Crypt/Desert/Dunes/Dungeon/Grotto/Pit/Tropical Island (map)
-[Type] == "The Inoculated" # [ForceSellItem] == "true" // Seraphim's Armour -- Shore (map)
-[Type] == "Jack in the Box" # [ForceSellItem] == "true" // Unique Item -- Battlefront/City of Sarn/Docks/Ebony Barracks/Marketplace/Slums/Warehouse District (zone)/ Aresenal (map)
-[Type] == "The Jester" # [ForceSellItem] == "true" // Merciless One-Hand Weapon -- Unknown
-[Type] == "The King's Blade" # [ForceSellItem] == "true" // Bloodthirsty Eternal Sword (66) -- Daresso's Dream (zone)/ Pit (map)
-[Type] == "The Lich" # [ForceSellItem] == "true" // Midnight Bargain -- Sawbones
-[Type] == "Light and Truth" # [ForceSellItem] == "true" // unique Crystal Sceptre -- Palace Map (map) / Residence Map (map) / Villa Map (map)
-[Type] == "The Lord in Black" # [ForceSellItem] == "true" // Magic Ring of Bameth (83) -- Bameth, Shifting Darkness
-[Type] == "The Lover" # [ForceSellItem] == "true" // Jewelry (79) -- Graveyard/Maelstr?m of Chaos/Necropolis (map)
-[Type] == "The Lunaris Priestess" # [ForceSellItem] == "true" // Sire of Shards -- Lunaris Temple 2 (zone)
-[Type] == "The Mercenary" # [ForceSellItem] == "true" // Unique Shield -- Broken Bridge (zone)/ Coves/Gorge (map)
-[Type] == "Merciless Armament" # [ForceSellItem] == "true" // Magic merciless 2-Handed Weapon (100) -- Colonnade (map)
-[Type] == "The Metalsmith's Gift" # [ForceSellItem] == "true" // Normal Prismatic Ring -- Fetid Pool/Mud Flats (zone)
-[Type] == "A Mother's Parting Gift" # [ForceSellItem] == "true" // Fertile Mind -- Imperial Gardens (zone)
-[Type] == "The Oath" # [ForceSellItem] == "true" // Death's Oath -- Unknown
-[Type] == "The Pack Leader" # [ForceSellItem] == "true" // Alpha's Howl -- Dark Forest/Dry Woods/Jungle Valley/Tropical Island (map)
-[Type] == "The Pact" # [ForceSellItem] == "true" // Pledge of Hands -- Docks (zone)/  Shipyard (map)
-[Type] == "The Poet" # [ForceSellItem] == "true" // Blood of Corruption (corrupted) -- Marketplace (zone)/ Arcade/Bazaar (map)
-[Type] == "Prosperity" # [ForceSellItem] == "true" // Magic Perandus' Gold Ring -- Tidal Island (zone)/ Shore (map)
-[Type] == "The Rabid Rhoa" # [ForceSellItem] == "true" // Malicious Gemini Magic Claw (83) - Drought-Maddened Rhoa
-[Type] == "Rain Tempter" # [ForceSellItem] == "true" // Strand Map -- Grotto (map)
-[Type] == "Rats" # [ForceSellItem] == "true" // Rats's Nest -- Marketplace/Warehouse District (zone)/ Arsenal (map)
-[Type] == "The Realm" # [ForceSellItem] == "true" // Superior Portal -- Unknown
-[Type] == "The Road to Power" # [ForceSellItem] == "true" // Runic 1-Handed Weapon (100) -- Fellshrine Ruins (zone)/ Dark Forest/Orchard/Shore/Village Ruin (map)
-[Type] == "The Scarred Meadow" # [ForceSellItem] == "true" // Wake of Destruction -- Old Fields (zone)/ Dry Peninsula (map)
-[Type] == "Scholar of the Seas" # [ForceSellItem] == "true" // Mao Kun -- Ship Graveyard (zone)/ Coves/Reef (map)
-[Type] == "Shard of Fate" # [ForceSellItem] == "true" // Magic Vivid Jewel -- Chamber of Sins (zone)
-[Type] == "The Sigil" # [ForceSellItem] == "true" // Unassailable Amulet -- Overgrown Shrine (map)
-[Type] == "The Siren" # [ForceSellItem] == "true" // The Wispering Ice (corrupted) -- Graveyard/Maelstr?m of Chaos/Necropolis (map)
-[Type] == "The Spoiled Prince" # [ForceSellItem] == "true" // Dictator's Prophecy Wand (100) -- Museum (map)
-[Type] == "The Stormcaller" # [ForceSellItem] == "true" // Agnerod Staff -- Torture Chamber (map)
-[Type] == "Struck By Lightning" # [ForceSellItem] == "true" // Random Magic Jewelry -- Castle Ruins or Combine 3 MAgic Items with Electrocuting Prefix
-[Type] == "The Sun" # [ForceSellItem] == "true" // Rise of the Phoenix -- Solaris Lvl 1/2 (zone)/ Temple (map)
-[Type] == "The Surgeon" # [ForceSellItem] == "true" // Magic Surgeon's Flask -- Chamber of Sins Lvl 2 (zone)
-[Type] == "The Thaumaturgist" # [ForceSellItem] == "true" // Shavronne's Revelation (corrupted) -- Shrine (map)
-[Type] == "The Throne" # [ForceSellItem] == "true" // Kaom's Roots (Corrupted) -- Sewer/Wastepool (zone)
-[Type] == "Thunderous Skies" # [ForceSellItem] == "true" // Storm Cloud -- Twilight Strand (Merc Zone)/ Courtyard/Strand (map)
-[Type] == "The Tower" # [ForceSellItem] == "true" // Unique Staff -- Sceptre of God/Upper Sceptre of God (zone)/ Palace/Residence (map)
-[Type] == "The Traitor" # [ForceSellItem] == "true" // Unique Wand (corrupted) -- Battlefront (zone)/ Promenade (map)
-[Type] == "Tranquility" # [ForceSellItem] == "true" // Voltaxic Rift -- Old Fields (zone)/ Dry Peninsula (map)
-[Type] == "Treasure Hunter" # [ForceSellItem] == "true" // Vaults of Atziri (corrupted) -- Mines Lvl 1 (zone)/ Excavation (map)
-[Type] == "Turn the Other Cheek" # [ForceSellItem] == "true" // Pacifism Jewel (corrupted) -- The Library (zone)
-[Type] == "The Twins" # [ForceSellItem] == "true" // Gemini Claw of Celebration (83) -- Palace/Residence/Temple (map)
-[Type] == "The Tyrant" # [ForceSellItem] == "true" // Merciless Weapon (magic) -- Precinct (map)
-[Type] == "The Vast" # [ForceSellItem] == "true" // Song of the Sirens -- Coves (map)
-[Type] == "The Visionary" # [ForceSellItem] == "true" // Lioneye's Vision -- Arena (map)
-[Type] == "The Watcher" # [ForceSellItem] == "true" // Crown of Eyes -- Quarry (map)
-[Type] == "The Web" # [ForceSellItem] == "true" // Weapon of Crafting -- Weaver's Chambers (zone) / Jungle Valley (map)
-[Type] == "The Wolf's Shadow" # [ForceSellItem] == "true" // Hyaon's Fury -- Underground Sea (map)
+
 
 //I N C U R S I O N
 [Type] == "Stone of Passage" # [StashItem] == "true" // Stone of Passage
@@ -669,6 +594,11 @@
 //SOCKETS
 [Sockets] == "6" && [Linked] >= "6" # [StashItem] =="true" // Keep 6L6S
 [Sockets] == "6" && [Linked] <= "5" # [SellUnid] == "true" // Sell 6S 
+
+//SEXTANT
+[Type] == "Simple Sextant" # [StashItem] == "true"
+[Type] == "Prime Sextant" # [StashItem] == "true"
+[Type] == "Awakened Sextant" # [StashItem] == "true"
 
 //J E W E L S 
 [Type] == "Prismatic Jewel" && [Rarity] == "Unique" # [StashItem] == "true" // Prevents vendoring / Not dropped
