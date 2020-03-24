@@ -350,6 +350,24 @@
 
 //Cards
 [Category] == "Card" # [StashItem] == "true" // Collect all divination cards
+[Type] == "Anarchy's Price" # [ForceSellItem] == "true" // Voltaxic Rift (Corrupted)-- Rogue Exiles
+[Type] == "Audacity" # [ForceSellItem] == "true" // Doryani's Fist (Corrupted) -- Apex of Sacrifice (map)
+[Type] == "Dark Temptation" # [ForceSellItem] == "true" // Obliteration
+[Type] == "Death" # [ForceSellItem] == "true"
+[Type] == "Echoes of Love" # [ForceSellItem] == "true"
+[Type] == "Forbidden Power" # [ForceSellItem] == "true"
+[Type] == "Light and Truth" # [ForceSellItem] == "true"
+[Type] == "Merciless Armament" # [ForceSellItem] == "true"
+[Type] == "Might is Right" # [ForceSellItem] == "true"
+[Type] == "Shard of Fate" # [ForceSellItem] == "true"
+[Type] == "The Conduit" # [ForceSellItem] == "true"
+[Type] == "The Endurance" # [ForceSellItem] == "true"
+[Type] == "The Forsaken" # [ForceSellItem] == "true"
+[Type] == "The Incantation" # [ForceSellItem] == "true"
+[Type] == "The King's Blade" # [ForceSellItem] == "true"
+[Type] == "The Lich" # [ForceSellItem] == "true"
+[Type] == "The Scarred Meadow" # [ForceSellItem] == "true"
+[Type] == "Tranquillity" # [ForceSellItem] == "true"
 
 
 //I N C U R S I O N
