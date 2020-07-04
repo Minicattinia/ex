@@ -975,7 +975,7 @@
 //                R i n g s                 //
 //                                          //
 //////////////////////////////////////////////
- 
+ [Category] == "Ring" && [Rarity] == "Unique" # [StashItem] == "true"
 
 //////////////////////////////////////////////
 //                                          //
@@ -1011,7 +1011,7 @@
 [Type] == "Cutthroat's Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Bronn's Lithe
 [Type] == "Destiny Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Queen of the Forest
 // [Type] == "Exquisite Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Kintsugi / Yreiel's Fostering
-[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Cloak of Defiance / Victario's Influence
+//[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Cloak of Defiance / Victario's Influence
 [Type] == "Sharkskin Tunic" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Rat Cage
 [Type] == "Strapped Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Briskwrap
 [Type] == "Wild Leather" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Foxshade
@@ -1019,15 +1019,15 @@
 
 // Energy Shield Chests
 [Type] == "Destroyer Regalia" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Coming Calamity
-[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Vis Mortis
+//[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Vis Mortis
 // [Type] == "Occultist's Vestment" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Shavronne's Wrappings 
 // [Type] == "Sage's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Zahndethus' Cassock / Dialla's Malefaction
 [Type] == "Sage's Robe" && [Rarity] == "Unique" # [chaos_damage_resistance_%] >= "40" && [ForceSellItem] == "true" // Zahndethus' Cassock 
 [Type] == "Savant's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Cloak of Tawm'r Isley
 [Type] == "Scholar's Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Cloak of Flame
-[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Covenant / Soul Mantle
+//[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Covenant / Soul Mantle
 // [Type] == "Vaal Regalia" && [Rarity] == "Unique" # [ForceSellItem] == "true" // The Beast Fur Shawl 
-// [Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Infernal Mantle / Doedre's Skin
+ [Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Infernal Mantle / Doedre's Skin
 
 // Armour & Evasion Chests
 [Type] == "Desert Brigandine" && [Rarity] == "Unique" # [ForceSellItem] == "true" // Lightning Coil 
