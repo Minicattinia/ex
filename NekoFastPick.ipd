@@ -90,6 +90,9 @@
 // Scrolls commented so instead of picking every scroll it will keep number of scroll setup by user in inventory
 // [Type] == "Scroll of Wisdom" # [StashItem] == "true" // Take all id scroll
 // [Type] == "Portal Scroll" # [StashItem] == "true" // Take all tp scroll
+
+[Type] == "Enkindling Orb" # [StashItem] == "true"
+[Type] == "Instilling Orb" # [StashItem] == "true"
 [Type] == "Blacksmith's Whetstone" # [StashItem] == "true" // Take Blacksmith's Whetstone
 [Type] == "Armourer's Scrap" # [StashItem] == "true" // Take Armourer's Scrap
 [Type] == "Glassblower's Bauble" # [StashItem] == "true" // Take Glassblower's Bauble
