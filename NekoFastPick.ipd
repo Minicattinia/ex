@@ -10,6 +10,200 @@
 //                                  CURRENCY                                       //
 //                                                                                 //
 /////////////////////////////////////////////////////////////////////////////////////
+////////// Base Currency
+
+// if enabled, the bot will pickup all scrolls and ignoring the GUI settings
+// [Type] == "Wisdom Scroll" 	# [StashItem] == "true"
+// [Type] == "Portal Scroll" 	# [StashItem] == "true"
+
+[Type] == "Alchemy Shard" 		# [StashItem] == "true"
+[Type] == "Alteration Shard" 	# [StashItem] == "true"
+[Type] == "Transmutation Shard" # [StashItem] == "true"
+
+[Type] == "Blacksmith's Whetstone" 	# [StashItem] == "true"
+[Type] == "Armourer's Scrap" 		# [StashItem] == "true"
+[Type] == "Glassblower's Bauble" 	# [StashItem] == "true"
+
+[Type] == "Blessed Orb" 		# [StashItem] == "true"
+[Type] == "Chaos Orb" 			# [StashItem] == "true"
+[Type] == "Chromatic Orb"		# [StashItem] == "true"
+[Type] == "Divine Orb" 			# [StashItem] == "true"
+[Type] == "Exalted Orb" 		# [StashItem] == "true"
+[Type] == "Gemcutter's Prism" 	# [StashItem] == "true"
+[Type] == "Jeweller's Orb" 		# [StashItem] == "true"
+[Type] == "Mirror of Kalandra" 	# [StashItem] == "true"
+
+[Type] == "Orb of Alchemy" 			# [StashItem] == "true"
+[Type] == "Orb of Alteration" 		# [StashItem] == "true"
+[Type] == "Orb of Transmutation" 	# [StashItem] == "true"
+[Type] == "Orb of Augmentation" 	# [StashItem] == "true"
+[Type] == "Orb of Chance" 			# [StashItem] == "true"
+[Type] == "Orb of Fusing" 			# [StashItem] == "true"
+[Type] == "Orb of Regret" 			# [StashItem] == "true"
+[Type] == "Orb of Scouring" 		# [StashItem] == "true"
+
+[Type] == "Perandus Coin" 			# [StashItem] == "true"
+[Type] == "Regal Orb" 				# [StashItem] == "true"
+[Type] == "Silver Coin" 			# [StashItem] == "true"
+[Type] == "Vaal Orb" 				# [StashItem] == "true"
+[Type] == "Cartographer's Chisel" 	# [StashItem] == "true"
+
+[Type] == "Apprentice Cartographer's Seal" 	# [StashItem] == "true"
+[Type] == "Journeyman Cartographer's Seal" 	# [StashItem] == "true"
+[Type] == "Master Cartographer's Seal" 		# [StashItem] == "true"
+
+[Type] == "Simple Sextant" 					# [StashItem] == "true"
+[Type] == "Prime Sextant" 					# [StashItem] == "true"
+[Type] == "Awakened Sextant" 				# [StashItem] == "true"
+
+[Type] == "Prophecy" 						# [StashItem] == "true"
+[Type] == "Stacked Deck" 					# [StashItem] == "true"
+[Type] == "Unshaping Orb" 					# [StashItem] == "true"
+
+[Type] == "Albino Rhoa Feather" 	# [StashItem] == "true"
+[Type] == "Offering to the Goddess" # [StashItem] == "true"
+
+
+////////// Delirium Currency
+
+[Type] == "Abyssal Delirium Orb" 		# [StashItem] == "true"
+[Type] == "Blighted Delirium Orb" 		# [StashItem] == "true"
+[Type] == "Diviner's Delirium Orb" 		# [StashItem] == "true"
+[Type] == "Fine Delirium Orb" 			# [StashItem] == "true"
+[Type] == "Fossilised Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Imperial Delirium Orb" 		# [StashItem] == "true"
+[Type] == "Portentous Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Singular Delirium Orb" 		# [StashItem] == "true"
+[Type] == "Skittering Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Thaumaturge's Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Timeless Delirium Orb" 		# [StashItem] == "true"
+[Type] == "Whispering Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Amorphous Delirium Orb" 		# [StashItem] == "true"
+[Type] == "Armoursmith's Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Blacksmith's Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Cartographer's Delirium Orb" # [StashItem] == "true"
+[Type] == "Decadent Delirium Orb" 		# [StashItem] == "true"
+[Type] == "Delirium Orb" 				# [StashItem] == "true"
+[Type] == "Foreboding Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Fragmented Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Jeweller's Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Obscured Delirium Orb" 		# [StashItem] == "true"
+[Type] == "Primal Delirium Orb" 		# [StashItem] == "true"
+[Type] == "Simulacrum Splinter" 		# [StashItem] == "true"
+[Type] == "Simulacrum" 					# [StashItem] == "true"
+
+
+////////// Heist Currency
+
+[Type] == "Rogue's Marker"                  # [StashItem] == "true"
+
+[Type] == "Contract: Bunker" 			    # [ForceSellItem] == "true"
+[Type] == "Contract: Laboratory" 		    # [ForceSellItem] == "true"
+[Type] == "Contract: Prohibited Library"    # [ForceSellItem] == "true"
+[Type] == "Contract: Records Office" 	    # [ForceSellItem] == "true"
+[Type] == "Contract: Repository" 		    # [ForceSellItem] == "true"
+[Type] == "Contract: Smuggler's Den" 	    # [ForceSellItem] == "true"
+[Type] == "Contract: Tunnels" 			    # [ForceSellItem] == "true"
+[Type] == "Contract: Underbelly" 		    # [ForceSellItem] == "true"
+[Type] == "Contract: Mansion"               # [ForceSellItem] == "true"
+
+[Type] == "Blueprint: Bunker" 				# [ForceSellItem] == "true"
+[Type] == "Blueprint: Laboratory" 			# [ForceSellItem] == "true"
+[Type] == "Blueprint: Prohibited Library" 	# [ForceSellItem] == "true"
+[Type] == "Blueprint: Records Office" 		# [ForceSellItem] == "true"
+[Type] == "Blueprint: Repository" 			# [ForceSellItem] == "true"
+[Type] == "Blueprint: Smuggler's Den" 		# [ForceSellItem] == "true"
+[Type] == "Blueprint: Tunnels" 				# [ForceSellItem] == "true"
+[Type] == "Blueprint: Underbelly" 			# [ForceSellItem] == "true"
+[Type] == "Blueprint: Mansion" 				# [ForceSellItem] == "true"  
+
+
+
+////////// Metamorph Currency
+
+[Type] == "*Brain" 	# [StashItem] == "true"
+[Type] == "*Eye" 	# [StashItem] == "true"
+[Type] == "*Lung" 	# [StashItem] == "true"
+[Type] == "*Heart" 	# [StashItem] == "true"
+[Type] == "*Liver" 	# [StashItem] == "true"
+
+////////// Harvest Currency
+
+[Type] == "Wild Ursaling Seed" 				# [StashItem] == "true"
+[Type] == "Wild Hellion Seed" 				# [StashItem] == "true"
+[Type] == "Wild Thornwolf Seed" 			# [StashItem] == "true"
+[Type] == "Wild Ape Seed" 					# [StashItem] == "true"
+[Type] == "Wild Hatchling Seed" 			# [StashItem] == "true"
+[Type] == "Wild Bristlebeast Grain" 		# [StashItem] == "true"
+[Type] == "Wild Snap Hound Grain" 			# [StashItem] == "true"
+[Type] == "Wild Homunculus Grain" 			# [StashItem] == "true"
+[Type] == "Wild Chieftain Grain" 			# [StashItem] == "true"
+[Type] == "Wild Spikeback Grain" 			# [StashItem] == "true"
+[Type] == "Wild Bristle Matron Bulb" 		# [StashItem] == "true"
+[Type] == "Wild Hellion Alpha Bulb" 		# [StashItem] == "true"
+[Type] == "Wild Brambleback Bulb" 			# [StashItem] == "true"
+[Type] == "Wild Infestation Queen Bulb" 	# [StashItem] == "true"
+[Type] == "Wild Thornfruit" 				# [StashItem] == "true"
+[Type] == "Vivid Arachnid Seed" 			# [StashItem] == "true"
+[Type] == "Vivid Weta Seed" 				# [StashItem] == "true"
+[Type] == "Vivid Leech Seed" 				# [StashItem] == "true"
+[Type] == "Vivid Scorpion Seed" 			# [StashItem] == "true"
+[Type] == "Vivid Thornweaver Seed" 			# [StashItem] == "true"
+[Type] == "Vivid Razorleg Grain" 			# [StashItem] == "true"
+[Type] == "Vivid Sapsucker Grain" 			# [StashItem] == "true"
+[Type] == "Vivid Parasite Grain" 			# [StashItem] == "true"
+[Type] == "Vivid Striketail Grain" 			# [StashItem] == "true"
+[Type] == "Vivid Nestback Grain" 			# [StashItem] == "true"
+[Type] == "Vivid Whipleg Bulb" 				# [StashItem] == "true"
+[Type] == "Vivid Watcher Bulb" 				# [StashItem] == "true"
+[Type] == "Vivid Vulture Bulb" 				# [StashItem] == "true"
+[Type] == "Vivid Abberarach Bulb" 			# [StashItem] == "true"
+[Type] == "Vivid Devourer Bulb" 			# [StashItem] == "true"
+[Type] == "Vivid Scalefruit" 				# [StashItem] == "true"
+[Type] == "Primal Rhoa Seed" 				# [StashItem] == "true"
+[Type] == "Primal Dustspitter Seed" 		# [StashItem] == "true"
+[Type] == "Primal Feasting Horror Seed" 	# [StashItem] == "true"
+[Type] == "Primal Maw Seed" 				# [StashItem] == "true"
+[Type] == "Primal Cleaveling Seed" 			# [StashItem] == "true"
+[Type] == "Primal Rhex Grain" 				# [StashItem] == "true"
+[Type] == "Primal Dustcrab Grain" 			# [StashItem] == "true"
+[Type] == "Primal Viper Grain" 				# [StashItem] == "true"
+[Type] == "Primal Chimeral Grain" 			# [StashItem] == "true"
+[Type] == "Primal Scrabbler Grain" 			# [StashItem] == "true"
+
+////////// Blight Currency
+
+[Type] == "Golden Oil" 		# [StashItem] == "true"
+[Type] == "Silver Oil" 		# [StashItem] == "true"
+[Type] == "Opalescent Oil" 	# [StashItem] == "true"
+[Type] == "Crimson Oil" 	# [StashItem] == "true"
+[Type] == "Black Oil" 		# [StashItem] == "true"
+[Type] == "Azure Oil" 		# [StashItem] == "true"
+[Type] == "Violet Oil" 		# [StashItem] == "true"
+
+////////// Catalysts
+[Type] == "Abrasive Catalyst" 	# [StashItem] == "true"
+[Type] == "Fertile Catalyst" 	# [StashItem] == "true"
+[Type] == "Imbued Catalyst" 	# [StashItem] == "true"
+[Type] == "Intrinsic Catalyst" 	# [StashItem] == "true"
+[Type] == "Prismatic Catalyst" 	# [StashItem] == "true"
+[Type] == "Tempering Catalyst" 	# [StashItem] == "true"
+[Type] == "Turbulent Catalyst" 	# [StashItem] == "true"
+
+////////// Legion Currency
+[Type] == "Timeless Eternal Empire Splinter" 	# [StashItem] == "true"
+[Type] == "Timeless Karui Splinter" 			# [StashItem] == "true"
+[Type] == "Timeless Maraketh Splinter" 			# [StashItem] == "true"
+[Type] == "Timeless Templar Splinter" 			# [StashItem] == "true"
+[Type] == "Timeless Vaal Splinter" 				# [StashItem] == "true"
+
+[Type] == "Timeless Eternal Emblem" 	# [StashItem] == "true"
+[Type] == "Timeless Karui Emblem" 		# [StashItem] == "true"
+[Type] == "Timeless Maraketh Emblem" 	# [StashItem] == "true"
+[Type] == "Timeless Templar Emblem" 	# [StashItem] == "true"
+[Type] == "Timeless Vaal Emblem" 		# [StashItem] == "true"
+
+
 
 ////////// Harbinger Currency
 
@@ -49,591 +243,21 @@
 [Type] == "Third Piece of the Arcane" 	# [StashItem] == "true"
 [Type] == "First Piece of Time" 		# [StashItem] == "true"
 [Type] == "Second Piece of Time" 		# [StashItem] == "true"
-////////// Metamorph Currency
 
-[Type] == "*Brain" 	# [StashItem] == "true"
-[Type] == "*Eye" 	# [StashItem] == "true"
-[Type] == "*Lung" 	# [StashItem] == "true"
-[Type] == "*Heart" 	# [StashItem] == "true"
-[Type] == "*Liver" 	# [StashItem] == "true"
-
-///////// Heist Currency
-
-[Type] == "Rogue's Marker"                  # [StashItem] == "true"
-// Contracts
-[Type] == "Contract: Bunker" 			    # [ForceSellItem] == "true"
-[Type] == "Contract: Laboratory" 		    # [ForceSellItem] == "true"
-[Type] == "Contract: Prohibited Library"    # [ForceSellItem] == "true"
-[Type] == "Contract: Records Office" 	    # [ForceSellItem] == "true"
-[Type] == "Contract: Repository" 		    # [ForceSellItem] == "true"
-[Type] == "Contract: Smuggler's Den" 	    # [ForceSellItem] == "true"
-[Type] == "Contract: Tunnels" 			    # [ForceSellItem] == "true"
-[Type] == "Contract: Underbelly" 		    # [ForceSellItem] == "true"
-[Type] == "Contract: Mansion"               # [ForceSellItem] == "true"
-
-[Type] == "Blueprint: Bunker" 				# [ForceSellItem] == "true"
-[Type] == "Blueprint: Laboratory" 			# [ForceSellItem] == "true"
-[Type] == "Blueprint: Prohibited Library" 	# [ForceSellItem] == "true"
-[Type] == "Blueprint: Records Office" 		# [ForceSellItem] == "true"
-[Type] == "Blueprint: Repository" 			# [ForceSellItem] == "true"
-[Type] == "Blueprint: Smuggler's Den" 		# [ForceSellItem] == "true"
-[Type] == "Blueprint: Tunnels" 				# [ForceSellItem] == "true"
-[Type] == "Blueprint: Underbelly" 			# [ForceSellItem] == "true"
-[Type] == "Blueprint: Mansion" 				# [ForceSellItem] == "true"  
-
-// Shards
-[Type] == "Alchemy Shard" # [StashItem] == "true"
-[Type] == "Alteration Shard" # [StashItem] == "true"
-[Type] == "Scroll Fragment" # [StashItem] == "true"
-[Type] == "Transmutation Shard" # [StashItem] == "true"
-
-// Scrolls commented so instead of picking every scroll it will keep number of scroll setup by user in inventory
-// [Type] == "Scroll of Wisdom" # [StashItem] == "true" // Take all id scroll
-// [Type] == "Portal Scroll" # [StashItem] == "true" // Take all tp scroll
-
-[Type] == "Enkindling Orb" # [StashItem] == "true"
-[Type] == "Instilling Orb" # [StashItem] == "true"
-[Type] == "Blacksmith's Whetstone" # [StashItem] == "true" // Take Blacksmith's Whetstone
-[Type] == "Armourer's Scrap" # [StashItem] == "true" // Take Armourer's Scrap
-[Type] == "Glassblower's Bauble" # [StashItem] == "true" // Take Glassblower's Bauble
-[Type] == "Blessed Orb" # [StashItem] == "true"
-[Type] == "Chaos Orb" # [StashItem] == "true"
-[Type] == "Chromatic Orb" # [StashItem] == "true"
-[Type] == "Divine Orb" # [StashItem] == "true"
-[Type] == "Exalted Orb" # [StashItem] == "true"
-[Type] == "Gemcutter's Prism" # [StashItem] == "true"
-[Type] == "Jeweller's Orb" # [StashItem] == "true"
-[Type] == "Mirror of Kalandra" # [StashItem] == "true"
-[Type] == "Orb of Alchemy" # [StashItem] == "true"
-[Type] == "Orb of Alteration" # [StashItem] == "true"
-[Type] == "Orb of Augmentation" # [StashItem] == "true"
-[Type] == "Orb of Chance" # [StashItem] == "true"
-[Type] == "Orb of Fusing" # [StashItem] == "true"
-[Type] == "Orb of Regret" # [StashItem] == "true"
-[Type] == "Orb of Scouring" # [StashItem] == "true"
-[Type] == "Orb of Transmutation" # [StashItem] == "true"
-[Type] == "Perandus Coin" # [StashItem] == "true"
-[Type] == "Regal Orb" # [StashItem] == "true"
-[Type] == "Silver Coin" # [StashItem] == "true"
-[Type] == "Vaal Orb" # [StashItem] == "true"
-
-
-[Type] == "Simple Sextant" 					# [StashItem] == "true"
-[Type] == "Prime Sextant" 					# [StashItem] == "true"
-[Type] == "Awakened Sextant" 					# [StashItem] == "true"
-
-[Type] == "Apprentice Cartographer's Seal" # [StashItem] == "true"
-[Type] == "Apprentice Cartographer's Sextant" # [StashItem] == "true"
-[Type] == "Cartographer's Chisel" # [StashItem] == "true"
-[Type] == "Journeyman Cartographer's Seal" # [StashItem] == "true"
-[Type] == "Journeyman Cartographer's Sextant" # [StashItem] == "true"
-[Type] == "Master Cartographer's Seal" # [StashItem] == "true"
-[Type] == "Master Cartographer's Sextant" # [StashItem] == "true"
-
-[Type] == "Stacked Deck" # [StashItem] == "true"
-[Type] == "Unshaping Orb" # [StashItem] == "true"
-
-// Prophecies
-[Type] == "Trash to Treasure" # [StashItem] == "true"
-[Type] == "The Queen's Sacrifice" # [StashItem] == "true"
-[Type] == "Fated Connections" # [StashItem] == "true"
-[Type] == "A Master Seeks Help, Jun" # [StashItem] == "true"
-[Type] == "Lost in the Pages" # [StashItem] == "true"
-[Type] == "A Dishonourable Death" # [StashItem] == "true"
-[Type] == "Song of the Sekhema" # [StashItem] == "true"
-[Type] == "Last of the Wildmen" # [StashItem] == "true"
-
-// O i l
-[Type] == "Clear Oil" # [StashItem] == "true" // Orb of Annulment
-[Type] == "Sepia Oil" # [StashItem] == "true" // Orb of Binding
-[Type] == "Amber Oil" # [StashItem] == "true" // Orb of Horizons
-[Type] == "Verdant Oil" # [StashItem] == "true" // Harbinger's Orb
-[Type] == "Teal Oil" # [StashItem] == "true" // Engineer's Orb
-[Type] == "Azure Oil" # [StashItem] == "true" // Ancient Orb
-[Type] == "Violet Oil" # [StashItem] == "true" // Annulment Shard
-[Type] == "Crimson Oil" # [StashItem] == "true" // Binding Shard
-[Type] == "Black Oil" # [StashItem] == "true" // Horizon Shard
-[Type] == "Opalescent Oil" # [StashItem] == "true" // Harbinger's Shard
-[Type] == "Silver Oil" # [StashItem] == "true" // Engineer's Shard
-[Type] == "Golden Oil" # [StashItem] == "true" // Ancient Shard
-
-// Harbinger currencies
-[Type] == "Orb of Annulment" # [StashItem] == "true" // Orb of Annulment
-[Type] == "Orb of Binding" # [StashItem] == "true" // Orb of Binding
-[Type] == "Orb of Horizons" # [StashItem] == "true" // Orb of Horizons
-[Type] == "Harbinger's Orb" # [StashItem] == "true" // Harbinger's Orb
-[Type] == "Engineer's Orb" # [StashItem] == "true" // Engineer's Orb
-[Type] == "Ancient Orb" # [StashItem] == "true" // Ancient Orb
-[Type] == "Annulment Shard" # [StashItem] == "true" // Annulment Shard
-[Type] == "Binding Shard" # [StashItem] == "true" // Binding Shard
-[Type] == "Horizon Shard" # [StashItem] == "true" // Horizon Shard
-[Type] == "Harbinger's Shard" # [StashItem] == "true" // Harbinger's Shard
-[Type] == "Engineer's Shard" # [StashItem] == "true" // Engineer's Shard
-[Type] == "Ancient Shard" # [StashItem] == "true" // Ancient Shard
-[Type] == "Chaos Shard" # [StashItem] == "true" // Chaos Shard
-[Type] == "Mirror Shard" # [StashItem] == "true" // Mirror Shard
-[Type] == "Exalted Shard" # [StashItem] == "true" // Exalted Shard
-[Type] == "Regal Shard" # [StashItem] == "true" // Regal Shard
-[Type] == "Albino Rhoa Feather" # [StashItem] == "true" // Albino Rhoa Feather
-[Type] == "Offering to the Goddess" # [StashItem] == "true" // Just in case bot picks up out of inventory
-
-////////// Blight Currency
-
-[Type] == "Golden Oil" 		# [StashItem] == "true"
-[Type] == "Silver Oil" 		# [StashItem] == "true"
-[Type] == "Opalescent Oil" 	# [StashItem] == "true"
-[Type] == "Crimson Oil" 	# [StashItem] == "true"
-[Type] == "Black Oil" 		# [StashItem] == "true"
-[Type] == "Azure Oil" 		# [StashItem] == "true"
-[Type] == "Violet Oil" 		# [StashItem] == "true"
-
-//Catalyst
-[Type] == "Abrasive Catalyst" # [StashItem] == "true"
-[Type] == "Fertile Catalyst" # [StashItem] == "true"
-[Type] == "Imbued Catalyst" # [StashItem] == "true"
-[Type] == "Intrinsic Catalyst" # [StashItem] == "true"
-[Type] == "Prismatic Catalyst" # [StashItem] == "true"
-[Type] == "Tempering Catalyst" # [StashItem] == "true"
-[Type] == "Turbulent Catalyst" # [StashItem] == "true"
-
-// Fossils and Resonators
-// [Type] == "Aberrant Fossil" # [StashItem] == "true"
-// [Type] == "Aetheric Fossil" # [StashItem] == "true"
-[Type] == "Bloodstained Fossil" # [StashItem] == "true"
-// [Type] == "Bound Fossil" # [StashItem] == "true"
-// [Type] == "Corroded Fossil" # [StashItem] == "true"
-// [Type] == "Dense Fossil" # [StashItem] == "true"
-// [Type] == "Enchanted Fossil" # [StashItem] == "true"
-// [Type] == "Encrusted Fossil" # [StashItem] == "true"
-[Type] == "Faceted Fossil" # [StashItem] == "true"
-[Type] == "Fractured Fossil" # [StashItem] == "true"
-// [Type] == "Frigid Fossil" # [StashItem] == "true"
-// [Type] == "Gilded Fossil" # [StashItem] == "true"
-[Type] == "Glyphic Fossil" # [StashItem] == "true"
-[Type] == "Hollow Fossil" # [StashItem] == "true"
-// [Type] == "Jagged Fossil" # [StashItem] == "true"
-// [Type] == "Lucent Fossil" # [StashItem] == "true"
-// [Type] == "Metallic Fossil" # [StashItem] == "true"
-// [Type] == "Perfect Fossil" # [StashItem] == "true"
-// [Type] == "Prismatic Fossil" # [StashItem] == "true"
-// [Type] == "Pristine Fossil" # [StashItem] == "true"
-[Type] == "Sanctified Fossil" # [StashItem] == "true"
-// [Type] == "Scorched Fossil" # [StashItem] == "true"
-// [Type] == "Serrated Fossil" # [StashItem] == "true"
-// [Type] == "Shuddering Fossil" # [StashItem] == "true"
-[Type] == "Tangled Fossil" # [StashItem] == "true"
-[Type] == "Potent Alchemical Resonator" # [StashItem] == "true"
-[Type] == "Potent Chaotic Resonator" # [StashItem] == "true"
-[Type] == "Powerful Alchemical Resonator" # [StashItem] == "true"
-[Type] == "Powerful Chaotic Resonator" # [StashItem] == "true"
-[Type] == "Prime Alchemical Resonator" # [StashItem] == "true"
-[Type] == "Prime Chaotic Resonator" # [StashItem] == "true"
-[Type] == "Primitive Alchemical Resonator" # [StashItem] == "true"
-[Type] == "Primitive Chaotic Resonator" # [StashItem] == "true"
-
-//Legion currencies
-[Type] == "Timeless Karui Splinter" # [StashItem] == "true"
-[Type] == "Timeless Eternal Empire Splinter" # [StashItem] == "true"
-[Type] == "Timeless Templar Splinter" # [StashItem] == "true"
-[Type] == "Timeless Maraketh Splinter" # [StashItem] == "true"
-[Type] == "Timeless Vaal Splinter" # [StashItem] == "true"
-[Type] == "Timeless Eternal Emblem" 	# [StashItem] == "true"
-[Type] == "Timeless Karui Emblem" 		# [StashItem] == "true"
-[Type] == "Timeless Maraketh Emblem" 	# [StashItem] == "true"
-[Type] == "Timeless Templar Emblem" 	# [StashItem] == "true"
-[Type] == "Timeless Vaal Emblem" 		# [StashItem] == "true"
-
-// I N C U R S I O N 
-[Type] == "Stone of Passage" # [StashItem] == "true" // Stone of Passage
-[Type] == "Flashpowder Keg" # [StashItem] == "true" // Flashpowder Keg
-[Type] == "Vial of Dominance" # [StashItem] == "true" // Vial of Dominance
-[Type] == "Vial of Summoning" # [StashItem] == "true" // Vial of Summoning
-[Type] == "Vial of Awakening" # [StashItem] == "true" // Vial of Awakening
-[Type] == "Vial of the Ritual" # [StashItem] == "true" // Vial of the Ritual
-[Type] == "Vial of Fate" # [StashItem] == "true" // Vial of Fate
-[Type] == "Vial of Consequence" # [StashItem] == "true" // Vial of Consequence
-[Type] == "Vial of the Ghost" # [StashItem] == "true" // Vial of the Ghost
-[Type] == "Vial of Transcendence" # [StashItem] == "true" // Vial of Transcendence
-[Type] == "Vial of Sacrifice" # [StashItem] == "true" // Vial of Sacrifice
-[Type] == "Bestiary Orb" # [StashItem] == "true" // Stash all Bestiary Orbs
-[Type] == "Imprinted Bestiary Orb" # [StashItem] == "true" // Stash all Imprinted Bestiary Orbs
-
-// Scarab
-[Type] == "Gilded Ambush Scarab" # [StashItem] == "true"
-[Type] == "Gilded Bestiary Scarab" # [StashItem] == "true"
-[Type] == "Gilded ฺBreach Scarab" # [StashItem] == "true"
-[Type] == "Gilded Cartography Scarab" # [StashItem] == "true"
-[Type] == "Gilded Divination Scarab" # [StashItem] == "true"
-[Type] == "Gilded Elder Scarab" # [StashItem] == "true"
-[Type] == "Gilded Harbinger Scarab" # [StashItem] == "true"
-[Type] == "Gilded Perandus Scarab" # [StashItem] == "true"
-[Type] == "Gilded Reliquary Scarab" # [StashItem] == "true"
-[Type] == "Gilded Shaper Scarab" # [StashItem] == "true"
-[Type] == "Gilded Sulphite Scarab" # [StashItem] == "true"
-[Type] == "Gilded Torment Scarab" # [StashItem] == "true"
-[Type] == "Polished Ambush Scarab" # [StashItem] == "true"
-[Type] == "Polished Bestiary Scarab" # [StashItem] == "true"
-[Type] == "Polished Breach Scarab" # [StashItem] == "true"
-[Type] == "Polished Cartography Scarab" # [StashItem] == "true"
-[Type] == "Polished Divination Scarab" # [StashItem] == "true"
-[Type] == "Polished Elder Scarab" # [StashItem] == "true"
-[Type] == "Polished Harbinger Scarab" # [StashItem] == "true"
-[Type] == "Polished Legion Scarab" # [StashItem] == "true"
-[Type] == "Polished Perandus Scarab" # [StashItem] == "true"
-[Type] == "Polished Reliquary Scarab" # [StashItem] == "true"
-[Type] == "Polished Shaper Scarab" # [StashItem] == "true"
-[Type] == "Polished Sulphite Scarab" # [StashItem] == "true"
-[Type] == "Polished Torment Scarab" # [StashItem] == "true"
-[Type] == "Rusted Ambush Scarab" # [StashItem] == "true"
-[Type] == "Rusted Bestiary Scarab" # [StashItem] == "true"
-[Type] == "Rusted Breach Scarab" # [StashItem] == "true"
-[Type] == "Rusted Cartography Scarab" # [StashItem] == "true"
-[Type] == "Rusted Divination Scarab" # [StashItem] == "true"
-[Type] == "Rusted Elder Scarab" # [StashItem] == "true"
-[Type] == "Rusted Harbinger Scarab" # [StashItem] == "true"
-[Type] == "Rusted Legion Scarab" # [StashItem] == "true"
-[Type] == "Rusted Perandus Scarab" # [StashItem] == "true"
-[Type] == "Rusted Reliquary Scarab" # [StashItem] == "true"
-[Type] == "Rusted Shaper Scarab" # [StashItem] == "true"
-[Type] == "Rusted Sulphite Scarab" # [StashItem] == "true"
-[Type] == "Rusted Torment Scarab" # [StashItem] == "true"
-
-// A B Y S S 
-[Type] == "Stygian Vise" && [Rarity] == "Unique" # [StashItem] == "true" // Darkness Enthroned
-[Type] == "Stygian Vise" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Murderous Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Searching Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Hypnotic Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-[Type] == "Ghastly Eye Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-
-//H A R B I N G E R
-[Type] == "First Piece of Brutality" # [StashItem] == "true"
-[Type] == "Second Piece of Brutality" # [StashItem] == "true"
-[Type] == "Third Piece of Brutality" # [StashItem] == "true"
-[Type] == "First Piece of Directions" # [StashItem] == "true"
-[Type] == "Second Piece of Directions" # [StashItem] == "true"
-[Type] == "Third Piece of Directions" # [StashItem] == "true"
-[Type] == "First Piece of Focus" # [StashItem] == "true"
-[Type] == "Second Piece of Focus" # [StashItem] == "true"
-[Type] == "Third Piece of Focus" # [StashItem] == "true"
-[Type] == "Fourth Piece of Focus" # [StashItem] == "true"
-[Type] == "First Piece of Storms" # [StashItem] == "true"
-[Type] == "Second Piece of Storms" # [StashItem] == "true"
-[Type] == "Third Piece of Storms" # [StashItem] == "true"
-[Type] == "First Piece of the Arcane" # [StashItem] == "true"
-[Type] == "Second Piece of the Arcane" # [StashItem] == "true"
-[Type] == "Third Piece of the Arcane" # [StashItem] == "true"
-[Type] == "First Piece of Time" # [StashItem] == "true"
-[Type] == "Second Piece of Time" # [StashItem] == "true"
-
-//B R E A C H
-[Type] == "Splinter of Chayula" # [StashItem] == "true"
-[Type] == "Splinter of Esh" # [StashItem] == "true"
-[Type] == "Splinter of Tul" # [StashItem] == "true"
-[Type] == "Splinter of Uul-Netol" # [StashItem] == "true"
-[Type] == "Splinter of Xoph" # [StashItem] == "true"
-[Type] == "Blessing of Chayula" # [StashItem] == "true"
-[Type] == "Blessing of Esh" # [StashItem] == "true"
-[Type] == "Blessing of Tul" # [StashItem] == "true"
-[Type] == "Blessing of Uul-Netol" # [StashItem] == "true"
-[Type] == "Blessing of Xoph" # [StashItem] == "true"
-
-//E S S E N C E S 
-// Tier 5
-[Type] == "Screaming Essence of Hatred" # [StashItem] == "true"
-[Type] == "Screaming Essence of Woe" # [StashItem] == "true"
-[Type] == "Screaming Essence of Greed" # [StashItem] == "true"
-[Type] == "Screaming Essence of Contempt" # [StashItem] == "true"
-[Type] == "Screaming Essence of Sorrow" # [StashItem] == "true"
-[Type] == "Screaming Essence of Anger" # [StashItem] == "true"
-[Type] == "Screaming Essence of Torment" # [StashItem] == "true"
-[Type] == "Screaming Essence of Fear" # [StashItem] == "true"
-[Type] == "Screaming Essence of Suffering" # [StashItem] == "true"
-[Type] == "Screaming Essence of Rage" # [StashItem] == "true"
-[Type] == "Screaming Essence of Wrath" # [StashItem] == "true"
-[Type] == "Screaming Essence of Doubt" # [StashItem] == "true"
-[Type] == "Screaming Essence of Anguish" # [StashItem] == "true"
-[Type] == "Screaming Essence of Loathing" # [StashItem] == "true"
-[Type] == "Screaming Essence of Spite" # [StashItem] == "true"
-[Type] == "Screaming Essence of Zeal" # [StashItem] == "true"
-[Type] == "Screaming Essence of Misery" # [StashItem] == "true"
-[Type] == "Screaming Essence of Dread" # [StashItem] == "true"
-[Type] == "Screaming Essence of Scorn" # [StashItem] == "true"
-[Type] == "Screaming Essence of Envy" # [StashItem] == "true"
-
-// Tier 6
-[Type] == "Shrieking Essence of Hatred" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Woe" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Greed" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Contempt" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Sorrow" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Anger" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Torment" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Fear" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Suffering" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Rage" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Wrath" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Doubt" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Anguish" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Loathing" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Spite" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Zeal" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Misery" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Dread" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Scorn" # [StashItem] == "true"
-[Type] == "Shrieking Essence of Envy" # [StashItem] == "true"
-
-// Tier 7
-[Type] == "Deafening Essence of Hatred" # [StashItem] == "true"
-[Type] == "Deafening Essence of Woe" # [StashItem] == "true"
-[Type] == "Deafening Essence of Greed" # [StashItem] == "true"
-[Type] == "Deafening Essence of Contempt" # [StashItem] == "true"
-[Type] == "Deafening Essence of Sorrow" # [StashItem] == "true"
-[Type] == "Deafening Essence of Anger" # [StashItem] == "true"
-[Type] == "Deafening Essence of Torment" # [StashItem] == "true"
-[Type] == "Deafening Essence of Fear" # [StashItem] == "true"
-[Type] == "Deafening Essence of Suffering" # [StashItem] == "true"
-[Type] == "Deafening Essence of Rage" # [StashItem] == "true"
-[Type] == "Deafening Essence of Wrath" # [StashItem] == "true"
-[Type] == "Deafening Essence of Doubt" # [StashItem] == "true"
-[Type] == "Deafening Essence of Anguish" # [StashItem] == "true"
-[Type] == "Deafening Essence of Loathing" # [StashItem] == "true"
-[Type] == "Deafening Essence of Spite" # [StashItem] == "true"
-[Type] == "Deafening Essence of Zeal" # [StashItem] == "true"
-[Type] == "Deafening Essence of Misery" # [StashItem] == "true"
-[Type] == "Deafening Essence of Dread" # [StashItem] == "true"
-[Type] == "Deafening Essence of Scorn" # [StashItem] == "true"
-[Type] == "Deafening Essence of Envy" # [StashItem] == "true"
-
-// Tier 8
-[Type] == "Essence of Hysteria" # [StashItem] == "true"
-[Type] == "Essence of Insanity" # [StashItem] == "true"
-[Type] == "Essence of Horror" # [StashItem] == "true"
-[Type] == "Essence of Delirium" # [StashItem] == "true"
-[Type] == "Remnant of Corruption" # [StashItem] == "true"
-
-//////////////////////////////////////////////
-//                                          //
-//                J E W E L S               //
-//                                          //
-//////////////////////////////////////////////
-
-// Abyss Jewels are in the "Currency" part of the pickit at the top!
-
-// Delirium Specifics
-[Type] == "Large Cluster Jewel" && [Rarity] == "Unique"   # [StashItem] == "true"
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Unique"  # [StashItem] == "true"
-[Type] == "Small Cluster Jewel" && [Rarity] == "Unique"   # [StashItem] == "true"
-
-// [Type] == "Small Cluster Jewel" && [Rarity] == "Rare"  # [StashItem] == "true"
-// [Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
-// [Type] == "Large Cluster Jewel" && [Rarity] == "Rare"  # [StashItem] == "true"
-
-// Custom Cluster for frostblades
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_stormrider] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_stormrider] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
-
-// By popularity
-// local_affliction_notable_widespread_destruction
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_widespread_destruction] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare"       # [local_affliction_notable_widespread_destruction] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_renewal
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_first_among_equals
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel"  && [Rarity] == "Rare" 	# [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_replenishing_presence
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel"  && [Rarity] == "Rare" 	# [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_prismatic_heart
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_vengeful_commander
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_wicked_pall
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_exposure_therapy
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_rotten_claws
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_rotten_claws] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_rotten_claws] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_energy_from_naught
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_energy_from_naught] >= "1" && [StashItem] == "true" 
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_energy_from_naught] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_unholy_grace
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_unholy_grace] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_unholy_grace] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_disorienting_display
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_disorienting_display] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_disorienting_display] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_feasting_fiends
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_doryanis_lesson
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_doryanis_lesson] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_doryanis_lesson] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_vicious_bite
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_vicious_bite] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_vicious_bite] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_spiked_concoction
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_spiked_concoction] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_spiked_concoction] >= "1" && [StashItem] == "true" 
-
-// local_affliction_notable_brush_with_death
-[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
-
-
-// Unique Prismatic Jewels are worth keeping
-[Type] == "Prismatic Jewel" && [Rarity] == "Unique"     # [StashItem] == "true"
-
-// Unique Primordial & The Anima Stone
-// Primordial Jewels
-[Type] == "Prismatic Jewel" && [Rarity] == "Unique"     # [number_of_golems_allowed_with_3_primordial_jewels] >= "1" && [StashItem] == "true" // The Anima Stone
-[Type] == "Crimson Jewel" && [Rarity] == "Unique" 	    # [golems_larger_aggro_radius] >= "1" && [StashItem] == "true" // Primordial Might
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" 	    # [golem_cooldown_recovery_+%] >= "1" && [StashItem] == "true" // Primordial Harmony
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [golem_attack_and_cast_speed_+%] >= "1" && [StashItem] == "true" // Primordial Eminence
-
-// Unique Timeless Jewels are worth keeping
-[Type] == "Timeless Jewel" && [Rarity] == "Unique"      # [StashItem] == "true"
-
-// Cobalt Jewels
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [StashItem] == "true" // Pick all unique Cobalt Jewels
-
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [maximum_life_+%] >= "6" && [ForceSellItem] == "true" // Anatomical Knowledge
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_damage_+%] >= "8" && [ForceSellItem] == "true" // Army of Bones
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_jewel_nearby_passives_str_to_int] >= "1" && [ForceSellItem] == "true" // Brute Force Solution 
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [mana_regeneration_rate_+%] >= "20" && [ForceSellItem] == "true" // Clear Mind
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_elemental_resistance_%] >= "7" && [ForceSellItem] == "true" // Dead Reckoning
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_unique_jewel_chaos_damage_+%_per_10_int_in_radius] >= "1" && [ForceSellItem] == "true" // Eldritch Knowledge
-// [Type] == "Cobalt Jewel" && [Rarity] == "Unique"     # [maximum_energy_shield_+%] >= "8" && [ForceSellItem] == "true" // Energy From Within
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_jewel_nearby_passives_dex_to_int] >= "1" && [ForceSellItem] == "true" // Fertile Mind 
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_maximum_life_+%] >= "5" && [ForceSellItem] == "true" // Fortified Legion
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [maximum_mana_+%] >= "15" && [ForceSellItem] == "true" // Healthy Mind
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [chance_to_gain_unholy_might_on_melee_kill_%] >= "5" && [ForceSellItem] == "true" // Malicious Intent
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [fire_damage_+%] >= "5" && [ForceSellItem] == "true" // Rolling Flames
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_unique_jewel_spectres_gain_soul_eater_on_kill_%_chance_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true" // Unending Hunger
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [cold_damage_+%] >= "5" && [ForceSellItem] == "true" // Winter's Bounty
-
-
-// Crimson Jewels
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [StashItem] == "true" // Pick all unique Crimson Jewels
-
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [dexterity_+%] >= "4" && [ForceSellItem] == "true" // Brawn
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_jewel_nearby_passives_int_to_str] >= "1" && [ForceSellItem] == "true" // Efficient Training
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_energy_shield_increases_applies_to_armour_doubled] >= "1" && [ForceSellItem] == "true" // Energised Armour
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_damage_increases_applies_to_fire_damage] >= "1" && [ForceSellItem] == "true" // Fireborn
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [life_regeneration_rate_+%] >= "1" && [ForceSellItem] == "true" // Fragile Bloom
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_jewel_nearby_passives_dex_to_str] >= "1" && [ForceSellItem] == "true" // Inertia
-// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_with_4_notables_gain_X_random_rare_monster_mods_on_kill] >= "5" && [ForceSellItem] == "true" // Inspired Learning
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [fire_damage_+%] >= "18" && [ForceSellItem] == "true" // Izaro's Turmoil
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [minimum_added_fire_damage_per_active_buff] >= "1" && [ForceSellItem] == "true" // Mantra of Flames
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [melee_range_+_while_unarmed] >= "1" && [ForceSellItem] == "true" // Martial Artistry
-// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [golems_larger_aggro_radius] >= "1" && [ForceSellItem] == "true" // Primordial Might
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_dex_and_int_apply_to_str_melee_damage_bonus_in_radius] >= "1" && [ForceSellItem] == "true" // Might in All Forms
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [totem_number_of_additional_projectiles] >= "2" && [ForceSellItem] == "true" // Rain of Splinters
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_ground_slam_angle_+%_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true" // Rapid Expansion
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_glacial_hammer_item_rarity_on_shattering_enemy_+%_with_50_strength_in_radius] >= "20" && [ForceSellItem] == "true" // Shattered Chains
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_totem_life_+X%_per_10_str_in_radius] >= "3" && [ForceSellItem] == "true" // Spire of Stone
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_vigilant_strike_fortifies_nearby_allies_for_x_seconds_with_50_str_in_radius] >= "3" && [ForceSellItem] == "true" // The Vigil
-[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_heavy_strike_chance_to_deal_double_damage_%_with_50_strength_in_radius] >= "10" && [ForceSellItem] == "true" // Weight of the Empire
-
-
-// Viridian Jewel
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 		# [StashItem] == "true" // Pick all unique Viridian Jewels
-
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [minion_movement_speed_+%] >= "5" && [ForceSellItem] == "true" // Apparitions
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_jewel_nearby_passives_int_to_dex] >= "1" && [ForceSellItem] == "true" // Careful Planning
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_physical_damage_increases_applies_to_cold_damage] >= "1" && [ForceSellItem] == "true" // Cold Steel
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_jewel_nearby_passives_str_to_dex] >= "1" && [ForceSellItem] == "true" // Fluid Motion
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_viper_strike_attack_damage_per_poison_on_enemy_+%_with_50_dexterity_in_radius] >= "4" && [ForceSellItem] == "true" // Growing Agony
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [damage_+%_per_equipped_magic_item] >= "20" && [ForceSellItem] == "true" // Hidden Potential
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [movement_velocity_+%_while_ignited] >= "10" && [ForceSellItem] == "true" // Hotfooted
-//[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_nearby_disconnected_passives_can_be_allocated] >= "1" && [ForceSellItem] == "true" // Intuitive Leap
-// [Type] == "Viridian Jewel" && [Rarity] == "Unique"   # [local_unique_jewel_melee_applies_to_bow] >= "1" && [ForceSellItem] == "true" // Lioneye's Fall
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_burning_arrow_spread_burning_ground_when_igniting_enemy_on_hit_%_with_50_dexterity_in_radius] >= "10" && [ForceSellItem] == "true" // Pitch Darkness
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_evasion_rating_+%_per_X_dex_in_radius] >= "1" && [ForceSellItem] == "true" // Pugilist
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_animate_weapon_can_animate_up_to_x_additional_ranged_weapons_with_50_dex_in_radius] >= "4" && [ForceSellItem] == "true" // Spirit Guards
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [attack_minimum_added_lightning_damage] >= "1" && [ForceSellItem] == "true" // Static Electricity
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_spectral_throw_damage_for_each_enemy_hit_with_spectral_weapon_+%_with_50_dexterity_in_radius] >= "4" && [ForceSellItem] == "true" // Steel Spirit 
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_barrage_final_volley_fires_x_additional_projectiles_simultaneously_with_50_dex_in_radius] >= "2" && [ForceSellItem] == "true" // Volley Fire 
-// [Type] == "Viridian Jewel" && [Rarity] == "Unique"   # [local_jewel_copy_stats_from_unallocated_non_notable_passives_in_radius] >= "1" && [ForceSellItem] == "true" // Unnatural Instinct
-// [Type] == "Viridian Jewel" && [Rarity] == "Unique"   # [golem_attack_and_cast_speed_+%] >= "16" && [ForceSellItem] == "true" // Primordial Eminence
-
-
-[Type] == "Abyssal Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Blighted Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Diviner's Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Fine Delirium Orb" 		# [StashItem] == "true"
-[Type] == "Fossilised Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Imperial Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Portentous Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Singular Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Skittering Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Thaumaturge's Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Timeless Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Whispering Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Amorphous Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Armoursmith's Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Blacksmith's Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Cartographer's Delirium Orb" # [StashItem] == "true"
-[Type] == "Decadent Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Delirium Orb" 		# [StashItem] == "true"
-[Type] == "Foreboding Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Fragmented Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Jeweller's Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Obscured Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Primal Delirium Orb" 	# [StashItem] == "true"
-[Type] == "Simulacrum Splinter" 	# [StashItem] == "true"
-[Type] == "Simulacrum" 			# [StashItem] == "true"
-
-//T A L I S M A N
-[Category] == "Talisman" && [Rarity] == "Rare" && [base_item_found_quantity_+%] >= "8" # [StashItem] == "true"// Keep all rare talismans
-[Category] == "Talisman" && [Rarity] == "Rare" && [spell_damage_+%] >= "50" # [StashItem] == "true"// Keep all rare talismans
-[Category] == "Talisman" && [Rarity] == "Rare" && [TotalFireSpellDamage] >= "40" # [StashItem] == "true"// Keep all rare talismans
-[Category] == "Talisman" && [Rarity] == "Rare" && [TotalColdSpellDamage] >= "40" # [StashItem] == "true"// Keep all rare talismans
-[Category] == "Talisman" && [Rarity] == "Rare" && [TotalLightningSpellDamage] >= "40" # [StashItem] == "true"// Keep all rare talismans
-[Category] == "Talisman" && [Rarity] == "Rare" && [Physical DPS] >= "40" # [StashItem] == "true"// Keep all rare talismans
-[Category] == "Talisman" && [Rarity] == "Rare" && [resist_all_elements_%] > "50" # [StashItem] == "true"// Keep all rare talismans
-[Category] == "Talisman" && [Rarity] == "Unique" # [StashItem] == "true" // Keep all unique talismans
-
+////////// Incursion Currency
+
+[Type] == "Stone of Passage" 	# [StashItem] == "true"
+[Type] == "Flashpowder Keg" 	# [StashItem] == "true"
+
+[Type] == "Vial of Dominance" 		# [StashItem] == "true"
+[Type] == "Vial of Summoning" 		# [StashItem] == "true"
+[Type] == "Vial of Awakening" 		# [StashItem] == "true"
+[Type] == "Vial of the Ritual" 		# [StashItem] == "true"
+[Type] == "Vial of Fate" 			# [StashItem] == "true"
+[Type] == "Vial of Consequence" 	# [StashItem] == "true"
+[Type] == "Vial of the Ghost" 		# [StashItem] == "true"
+[Type] == "Vial of Transcendence" 	# [StashItem] == "true"
+[Type] == "Vial of Sacrifice" 		# [StashItem] == "true"
 ////////// Breach Currency
 
 [Type] == "Splinter of Chayula" 	# [StashItem] == "true"
@@ -681,48 +305,58 @@
 [Type] == "Ritual Vessel"      # [StashItem] == "true"
 [Type] == "Crescent Splinter"  # [StashItem] == "true"
 
-// Harvest Stuff
-[Type] == "Wild Ursaling Seed" # [StashItem] == "true"
-[Type] == "Wild Hellion Seed" # [StashItem] == "true"
-[Type] == "Wild Thornwolf Seed" # [StashItem] == "true"
-[Type] == "Wild Ape Seed" # [StashItem] == "true"
-[Type] == "Wild Hatchling Seed" # [StashItem] == "true"
-[Type] == "Wild Bristlebeast Grain" # [StashItem] == "true"
-[Type] == "Wild Snap Hound Grain" # [StashItem] == "true"
-[Type] == "Wild Homunculus Grain" # [StashItem] == "true"
-[Type] == "Wild Chieftain Grain" # [StashItem] == "true"
-[Type] == "Wild Spikeback Grain" # [StashItem] == "true"
-[Type] == "Wild Bristle Matron Bulb" # [StashItem] == "true"
-[Type] == "Wild Hellion Alpha Bulb" # [StashItem] == "true"
-[Type] == "Wild Brambleback Bulb" # [StashItem] == "true"
-[Type] == "Wild Infestation Queen Bulb" # [StashItem] == "true"
-[Type] == "Wild Thornfruit" # [StashItem] == "true"
-[Type] == "Vivid Arachnid Seed" # [StashItem] == "true"
-[Type] == "Vivid Weta Seed" # [StashItem] == "true"
-[Type] == "Vivid Leech Seed" # [StashItem] == "true"
-[Type] == "Vivid Scorpion Seed" # [StashItem] == "true"
-[Type] == "Vivid Thornweaver Seed" # [StashItem] == "true"
-[Type] == "Vivid Razorleg Grain" # [StashItem] == "true"
-[Type] == "Vivid Sapsucker Grain" # [StashItem] == "true"
-[Type] == "Vivid Parasite Grain" # [StashItem] == "true"
-[Type] == "Vivid Striketail Grain" # [StashItem] == "true"
-[Type] == "Vivid Nestback Grain" # [StashItem] == "true"
-[Type] == "Vivid Whipleg Bulb" 	# [StashItem] == "true"
-[Type] == "Vivid Watcher Bulb" 	# [StashItem] == "true"
-[Type] == "Vivid Vulture Bulb" 	# [StashItem] == "true"
-[Type] == "Vivid Abberarach Bulb" # [StashItem] == "true"
-[Type] == "Vivid Devourer Bulb" # [StashItem] == "true"
-[Type] == "Vivid Scalefruit" # [StashItem] == "true"
-[Type] == "Primal Rhoa Seed" # [StashItem] == "true"
-[Type] == "Primal Dustspitter Seed" # [StashItem] == "true"
-[Type] == "Primal Feasting Horror Seed" # [StashItem] == "true"
-[Type] == "Primal Maw Seed" # [StashItem] == "true"
-[Type] == "Primal Cleaveling Seed" # [StashItem] == "true"
-[Type] == "Primal Rhex Grain" # [StashItem] == "true"
-[Type] == "Primal Dustcrab Grain" # [StashItem] == "true"
-[Type] == "Primal Viper Grain" # [StashItem] == "true"
-[Type] == "Primal Chimeral Grain" # [StashItem] == "true"
-[Type] == "Primal Scrabbler Grain" # [StashItem] == "true"
+//////////  Scourge Currency
+
+[Type] == "Sacred Orb" 				# [StashItem] == "true"
+
+[Type] == "Tainted Chromatic Orb" 	# [StashItem] == "true"
+[Type] == "Tainted Orb of Fusing" 	# [StashItem] == "true"
+[Type] == "Tainted Jeweller's Orb" 	# [StashItem] == "true"
+[Type] == "Tainted Blessing" 		# [StashItem] == "true"
+
+[Type] == "Tainted Chaos Orb" 		# [StashItem] == "true"
+[Type] == "Tainted Exalted Orb" 	# [StashItem] == "true"
+[Type] == "Tainted Mythic Orb" 		# [StashItem] == "true"
+
+[Type] == "Tainted Divine Teardrop"	# [StashItem] == "true"
+
+[Type] == "Tainted Blacksmith's Whetstone" 	# [StashItem] == "true"
+[Type] == "Tainted Armourer's Scrap" 		# [StashItem] == "true"
+
+[Type] == "Kalguuran Delirium Orb" 	# [StashItem] == "true"
+[Type] == "Deft Fossil" 			# [StashItem] == "true"
+[Type] == "Fundamental Fossil" 		# [StashItem] == "true"
+
+//////////  Archnemesis Currency
+
+[Type] == "Surveyor's Compass"				# [StashItem] == "true"
+[Type] == "Charged Compass"					# [StashItem] == "true"
+[Type] == "Lesser Eldritch Ember"			# [StashItem] == "true"
+[Type] == "Greater Eldritch Ember"			# [StashItem] == "true"
+[Type] == "Grand Eldritch Ember"			# [StashItem] == "true"
+[Type] == "Exceptional Eldritch Ember"		# [StashItem] == "true"
+[Type] == "Lesser Eldritch Ichor"			# [StashItem] == "true"
+[Type] == "Greater Eldritch Ichor"			# [StashItem] == "true"
+[Type] == "Grand Eldritch Ichor"			# [StashItem] == "true"
+[Type] == "Exceptional Eldritch Ichor" 		# [StashItem] == "true"
+[Type] == "Orb of Conflict"					# [StashItem] == "true"
+[Type] == "Orb of Dominance"				# [StashItem] == "true"
+[Type] == "Eldritch Chaos Orb"				# [StashItem] == "true"
+[Type] == "Eldritch Exalted Orb"			# [StashItem] == "true"
+[Type] == "Eldritch Orb of Annulment"		# [StashItem] == "true"
+[Type] == "Singular Scouting Report"		# [StashItem] == "true"
+[Type] == "Otherworldly Scouting Report"	# [StashItem] == "true"
+[Type] == "Comprehensive Scouting Report"	# [StashItem] == "true"
+[Type] == "Vaal Scouting Report"			# [StashItem] == "true"
+[Type] == "Delirious Scouting Report"		# [StashItem] == "true"
+[Type] == "Operative's Scouting Report"		# [StashItem] == "true"
+[Type] == "Blighted Scouting Report"		# [StashItem] == "true"
+[Type] == "Influenced Scouting Report" 		# [StashItem] == "true"
+[Type] == "Explorer's Scouting Report"		# [StashItem] == "true"
+[Type] == "Oil Extractor"					# [StashItem] == "true"
+
+
+
 
 //Gem
 [Type] == "Portal" # [StashItem] == "true"
@@ -730,9 +364,148 @@
 [Type] == "Item Quantity Support" # [StashItem] == "true"
 [Type] == "Enhance Support" # [StashItem] == "true"
 [Type] == "Enlighten Support" # [StashItem] == "true"
+////////// Bestiary Currency
 
-//Cards
-[Category] == "Card" # [StashItem] == "true" // Collect all divination cards
+[Type] == "Bestiary Orb" 			# [StashItem] == "true"
+[Type] == "Imprinted Bestiary Orb" 	# [StashItem] == "true"
+
+////////// Abyss Currency/Items
+
+// Rares only
+[Type] == "Stygian Vise" 			&& [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Murderous Eye Jewel" 	&& [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Searching Eye Jewel" 	&& [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Hypnotic Eye Jewel" 		&& [Rarity] == "Rare" # [StashItem] == "true"
+[Type] == "Ghastly Eye Jewel" 		&& [Rarity] == "Rare" # [StashItem] == "true"
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                               E S S E N C E S                                   //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Tier 1
+ [Type] == "Whispering Essence of Hatred"   # [StashItem] == "true"
+ [Type] == "Whispering Essence of Woe"      # [StashItem] == "true"
+ [Type] == "Whispering Essence of Greed"    # [StashItem] == "true"
+ [Type] == "Whispering Essence of Contempt" # [StashItem] == "true"
+
+// Tier 2
+ [Type] == "Muttering Essence of Hatred"   # [StashItem] == "true"
+  [Type] == "Muttering Essence of Woe"      # [StashItem] == "true"
+ [Type] == "Muttering Essence of Greed"    # [StashItem] == "true"
+ [Type] == "Muttering Essence of Contempt" # [StashItem] == "true"
+ [Type] == "Muttering Essence of Sorrow"   # [StashItem] == "true"
+ [Type] == "Muttering Essence of Anger"    # [StashItem] == "true"
+ [Type] == "Muttering Essence of Torment"  # [StashItem] == "true"
+ [Type] == "Muttering Essence of Fear"     # [StashItem] == "true"
+
+// Tier 3
+ [Type] == "Weeping Essence of Hatred"    # [StashItem] == "true"
+ [Type] == "Weeping Essence of Woe"       # [StashItem] == "true"
+ [Type] == "Weeping Essence of Greed"     # [StashItem] == "true"
+ [Type] == "Weeping Essence of Contempt"  # [StashItem] == "true"
+ [Type] == "Weeping Essence of Sorrow"    # [StashItem] == "true"
+ [Type] == "Weeping Essence of Anger"     # [StashItem] == "true"
+ [Type] == "Weeping Essence of Torment"   # [StashItem] == "true"
+ [Type] == "Weeping Essence of Fear"      # [StashItem] == "true"
+ [Type] == "Weeping Essence of Suffering" # [StashItem] == "true"
+ [Type] == "Weeping Essence of Rage"      # [StashItem] == "true"
+ [Type] == "Weeping Essence of Wrath"     # [StashItem] == "true"
+ [Type] == "Weeping Essence of Doubt"     # [StashItem] == "true"
+
+// Tier 4
+[Type] == "Wailing Essence of Hatred"    # [StashItem] == "true"
+[Type] == "Wailing Essence of Woe"       # [StashItem] == "true"
+[Type] == "Wailing Essence of Greed"     # [StashItem] == "true"
+[Type] == "Wailing Essence of Contempt"  # [StashItem] == "true"
+[Type] == "Wailing Essence of Sorrow"    # [StashItem] == "true"
+[Type] == "Wailing Essence of Anger"     # [StashItem] == "true"
+[Type] == "Wailing Essence of Torment"   # [StashItem] == "true"
+[Type] == "Wailing Essence of Fear"      # [StashItem] == "true"
+[Type] == "Wailing Essence of Suffering" # [StashItem] == "true"
+[Type] == "Wailing Essence of Rage"      # [StashItem] == "true"
+[Type] == "Wailing Essence of Wrath"     # [StashItem] == "true"
+[Type] == "Wailing Essence of Doubt"     # [StashItem] == "true"
+[Type] == "Wailing Essence of Anguish"   # [StashItem] == "true"
+[Type] == "Wailing Essence of Loathing"  # [StashItem] == "true"
+[Type] == "Wailing Essence of Spite"     # [StashItem] == "true"
+[Type] == "Wailing Essence of Zeal"      # [StashItem] == "true"
+
+// Tier 5
+[Type] == "Screaming Essence of Hatred"    # [StashItem] == "true"
+[Type] == "Screaming Essence of Woe"       # [StashItem] == "true"
+[Type] == "Screaming Essence of Greed"     # [StashItem] == "true"
+[Type] == "Screaming Essence of Contempt"  # [StashItem] == "true"
+[Type] == "Screaming Essence of Sorrow"    # [StashItem] == "true"
+[Type] == "Screaming Essence of Anger"     # [StashItem] == "true"
+[Type] == "Screaming Essence of Torment"   # [StashItem] == "true"
+[Type] == "Screaming Essence of Fear"      # [StashItem] == "true"
+[Type] == "Screaming Essence of Suffering" # [StashItem] == "true"
+[Type] == "Screaming Essence of Rage"      # [StashItem] == "true"
+[Type] == "Screaming Essence of Wrath"     # [StashItem] == "true"
+[Type] == "Screaming Essence of Doubt"     # [StashItem] == "true"
+[Type] == "Screaming Essence of Anguish"   # [StashItem] == "true"
+[Type] == "Screaming Essence of Loathing"  # [StashItem] == "true"
+[Type] == "Screaming Essence of Spite"     # [StashItem] == "true"
+[Type] == "Screaming Essence of Zeal"      # [StashItem] == "true"
+[Type] == "Screaming Essence of Misery"    # [StashItem] == "true"
+[Type] == "Screaming Essence of Dread"     # [StashItem] == "true"
+[Type] == "Screaming Essence of Scorn"     # [StashItem] == "true"
+[Type] == "Screaming Essence of Envy"      # [StashItem] == "true"
+
+// Tier 6
+[Type] == "Shrieking Essence of Hatred"    # [StashItem] == "true"
+[Type] == "Shrieking Essence of Woe"       # [StashItem] == "true"
+[Type] == "Shrieking Essence of Greed"     # [StashItem] == "true"
+[Type] == "Shrieking Essence of Contempt"  # [StashItem] == "true"
+[Type] == "Shrieking Essence of Sorrow"    # [StashItem] == "true"
+[Type] == "Shrieking Essence of Anger"     # [StashItem] == "true"
+[Type] == "Shrieking Essence of Torment"   # [StashItem] == "true"
+[Type] == "Shrieking Essence of Fear"      # [StashItem] == "true"
+[Type] == "Shrieking Essence of Suffering" # [StashItem] == "true"
+[Type] == "Shrieking Essence of Rage"      # [StashItem] == "true"
+[Type] == "Shrieking Essence of Wrath"     # [StashItem] == "true"
+[Type] == "Shrieking Essence of Doubt"     # [StashItem] == "true"
+[Type] == "Shrieking Essence of Anguish"   # [StashItem] == "true"
+[Type] == "Shrieking Essence of Loathing"  # [StashItem] == "true"
+[Type] == "Shrieking Essence of Spite"     # [StashItem] == "true"
+[Type] == "Shrieking Essence of Zeal"      # [StashItem] == "true"
+[Type] == "Shrieking Essence of Misery"    # [StashItem] == "true"
+[Type] == "Shrieking Essence of Dread"     # [StashItem] == "true"
+[Type] == "Shrieking Essence of Scorn"     # [StashItem] == "true"
+[Type] == "Shrieking Essence of Envy"      # [StashItem] == "true"
+
+// Tier 7
+[Type] == "Deafening Essence of Hatred"    # [StashItem] == "true"
+[Type] == "Deafening Essence of Woe"       # [StashItem] == "true"
+[Type] == "Deafening Essence of Greed"     # [StashItem] == "true"
+[Type] == "Deafening Essence of Contempt"  # [StashItem] == "true"
+[Type] == "Deafening Essence of Sorrow"    # [StashItem] == "true"
+[Type] == "Deafening Essence of Anger"     # [StashItem] == "true"
+[Type] == "Deafening Essence of Torment"   # [StashItem] == "true"
+[Type] == "Deafening Essence of Fear"      # [StashItem] == "true"
+[Type] == "Deafening Essence of Suffering" # [StashItem] == "true"
+[Type] == "Deafening Essence of Rage"      # [StashItem] == "true"
+[Type] == "Deafening Essence of Wrath"     # [StashItem] == "true"
+[Type] == "Deafening Essence of Doubt"     # [StashItem] == "true"
+[Type] == "Deafening Essence of Anguish"   # [StashItem] == "true"
+[Type] == "Deafening Essence of Loathing"  # [StashItem] == "true"
+[Type] == "Deafening Essence of Spite"     # [StashItem] == "true"
+[Type] == "Deafening Essence of Zeal"      # [StashItem] == "true"
+[Type] == "Deafening Essence of Misery"    # [StashItem] == "true"
+[Type] == "Deafening Essence of Dread"     # [StashItem] == "true"
+[Type] == "Deafening Essence of Scorn"     # [StashItem] == "true"
+[Type] == "Deafening Essence of Envy"      # [StashItem] == "true"
+
+// Tier 8
+[Type] == "Essence of Hysteria"   # [StashItem] == "true"
+[Type] == "Essence of Insanity"   # [StashItem] == "true"
+[Type] == "Essence of Horror"     # [StashItem] == "true"
+[Type] == "Essence of Delirium"   # [StashItem] == "true"
+
+[Type] == "Remnant of Corruption" # [StashItem] == "true"
 /////////////////////////////////////////////////////////////////////////////////////
 //                                                                                 //
 //                       D I V I N A T I O N    C A R D S                          //
@@ -745,6 +518,41 @@
 
 // Meta-rule
 // [Category] == "Card"                  # [StashItem] == "true"
+
+// NEW SCOURGE CARDS - START
+[Type] == "Desperate Crusade" 			 # [StashItem] == "true"
+[Type] == "A Stone Perfected" 			 # [StashItem] == "true"
+[Type] == "Treasures of the Vaal" 		 # [StashItem] == "true"
+[Type] == "The Rabbit's Foot" 			 # [StashItem] == "true"
+[Type] == "Chasing Risk" 				 # [StashItem] == "true"
+[Type] == "The Prince of Darkness" 		 # [StashItem] == "true"
+[Type] == "The Catch" 					 # [StashItem] == "true"
+[Type] == "Eternal Bonds" 				 # [StashItem] == "true"
+[Type] == "Disdain" 					 # [StashItem] == "true"
+[Type] == "The Scout" 					 # [StashItem] == "true"
+[Type] == "Guardian's Challenge" 		 # [StashItem] == "true"
+[Type] == "The Forgotten Treasure" 		 # [StashItem] == "true"
+[Type] == "The Fox in the Brambles" 	 # [StashItem] == "true"
+[Type] == "Audacity" 					 # [StashItem] == "true"
+[Type] == "The Aspirant" 				 # [StashItem] == "true"
+// NEW SCOURGE CARDS - END
+
+// NEW ARCHNEMESIS CARDS - START
+[Type] == "Judging Voices" 		 # [StashItem] == "true"
+[Type] == "Bijoux" 			 # [StashItem] == "true"
+[Type] == "Silence and Frost" 		 # [StashItem] == "true"
+[Type] == "Misery in Darkness"           # [StashItem] == "true"
+[Type] == "The Tireless Extractor" 	 # [StashItem] == "true"
+[Type] == "Justified Ambition" 		 # [StashItem] == "true"
+[Type] == "Parasitic Passengers" 	 # [StashItem] == "true"
+[Type] == "Duality" 			 # [StashItem] == "true"
+[Type] == "The One That Got Away" 	 # [StashItem] == "true"
+[Type] == "The Transformation" 		 # [StashItem] == "true"
+[Type] == "Magnum Opus" 		 # [StashItem] == "true"
+[Type] == "Imperfect Memories" 		 # [StashItem] == "true"
+[Type] == "The Magma Crab" 	         # [StashItem] == "true"
+// NEW ARCHNEMESIS CARDS - END
+
 
 // [Type] == "A Dab of Ink"              # [StashItem] == "true" //  The Poet's Pen
 [Type] == "A Familiar Call"              # [StashItem] == "true" //  Jewellery of Farrul Item Level: 100 Shaper + Hunter Item
@@ -1093,23 +901,18 @@
 [Type] == "Luck of the Vaal"             # [StashItem] == "true" //  Vaal Gauntlets corrupted
 
 
-//I N C U R S I O N
-[Type] == "Stone of Passage" # [StashItem] == "true" // Stone of Passage
-[Type] == "Flashpowder Keg" # [StashItem] == "true" // Flashpowder Keg
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                              T A L I S M A N                                    //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
 
-[Type] == "Vial of Dominance" # [StashItem] == "true" // Vial of Dominance
-[Type] == "Vial of Summoning" # [StashItem] == "true" // Vial of Summoning
-[Type] == "Vial of Awakening" # [StashItem] == "true" // Vial of Awakening
-[Type] == "Vial of the Ritual" # [StashItem] == "true" // Vial of the Ritual
-[Type] == "Vial of Fate" # [StashItem] == "true" // Vial of Fate
-[Type] == "Vial of Consequence" # [StashItem] == "true" // Vial of Consequence
-[Type] == "Vial of the Ghost" # [StashItem] == "true" // Vial of the Ghost
-[Type] == "Vial of Transcendence" # [StashItem] == "true" // Vial of Transcendence
-[Type] == "Vial of Sacrifice" # [StashItem] == "true" // Vial of Sacrifice
+// [Category] == "Talisman"                       # [StashItem] == "true" // Keep all talismans
+// [Category] == "Talisman" && [Rarity] == "Rare" # [StashItem] == "true" // Keep all rare talismans
 
-//B E S T I A R Y
-[Type] == "Bestiary Orb" # [StashItem] == "true" // Stash all Bestiary Orbs
-[Type] == "Imprinted Bestiary Orb" # [StashItem] == "true" // Stash all Imprinted Bestiary Orbs
+[Category] == "Talisman" && [Rarity] == "Unique"  # [StashItem] == "true" // Keep all unique talismans
+
+
 
 //M A P S
 [Type] == "Sacrifice at Dawn" # [StashItem] == "true" //Sacrifice map
@@ -1342,31 +1145,255 @@
 [Type] == "Prime Sextant" # [StashItem] == "true"
 [Type] == "Awakened Sextant" # [StashItem] == "true"
 
-//J E W E L S 
-[Type] == "Prismatic Jewel" && [Rarity] == "Unique" # [StashItem] == "true" // Prevents vendoring / Not dropped
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [StashItem] == "true" // Stash all unique Cobalt Jewels
-[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [StashItem] == "true" // Stash all unique Crimson Jewels
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [StashItem] == "true" Stash all unique Viridian Jewels
- [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "5" && [StashItem] == "true" // Keep life mod jewel
- [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [minion_damage_+%] >= "14" && [StashItem] == "true" // Keep minion dmg mod jewel (SRS builds)
- [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [base_resist_all_elements_%] >= "8" && [StashItem] == "true" // Keep all resist mod jewel
- [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [damage_over_time_+%] >= "10" && [StashItem] == "true" // Keep DoT mod jewel (Poison/Chaos builds)
- [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [spell_damage_+%] >= "20" && [StashItem] == "true" // Keep double spell dmg mod jewel
- [Type] == "Cobalt Jewel" && [Rarity] == "Rare" # [critical_strike_chance_+%] >= "20" && [StashItem] == "true" // Keep double crit chance mod jewel
- [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "5" && [StashItem] == "true" // Keep life mod jewel
- [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [physical_damage_+%] >= "20" && [StashItem] == "true" // Keep double phys dmg mod
- [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [base_resist_all_elements_%] >= "8" && [StashItem] == "true" // Keep all resist mod jewel
- [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [damage_over_time_+%] >= "10" && [StashItem] == "true" // Keep DoT mod jewel (Poison/Chaos builds)
- [Type] == "Crimson Jewel" && [Rarity] == "Rare" # [critical_strike_chance_+%] >= "20" && [StashItem] == "true" // Keep double crit chance mod jewel
- [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [maximum_life_+%] >= "5" && [StashItem] == "true" // Keep life mod jewel
- [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [physical_damage_+%] >= "20" && [StashItem] == "true" // Keep double phys dmg mod
- [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [base_resist_all_elements_%] >= "8" && [StashItem] == "true" // Keep all resist mod jewel
- [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [damage_over_time_+%] >= "10" && [StashItem] == "true" // Keep DoT mod jewel (Poison/Chaos builds)
- [Type] == "Viridian Jewel" && [Rarity] == "Rare" # [critical_strike_chance_+%] >= "20" && [StashItem] == "true" // Keep double crit chance mod jewel
- 
- //Sell Unique Jewell
- 
- [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [chance_to_gain_unholy_might_on_melee_kill_%] == "5" && [ForceSellItem] == "true"
+//////////////////////////////////////////////
+//                                          //
+//                J E W E L S               //
+//                                          //
+//////////////////////////////////////////////
+
+// Abyss Jewels are in the "Currency" part of the pickit at the top!
+
+// Delirium Specifics
+[Type] == "Large Cluster Jewel" && [Rarity] == "Unique"   # [StashItem] == "true"
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Unique"  # [StashItem] == "true"
+[Type] == "Small Cluster Jewel" && [Rarity] == "Unique"   # [StashItem] == "true"
+
+// [Type] == "Small Cluster Jewel" && [Rarity] == "Rare"  # [StashItem] == "true"
+// [Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" # [StashItem] == "true"
+// [Type] == "Large Cluster Jewel" && [Rarity] == "Rare"  # [StashItem] == "true"
+
+// Custom Cluster for frostblades
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_cold_conduction] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_stormrider] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_stormrider] >= "1" && [StashItem] == "true" // For rolling 1 Added Passive Skill is Cold Conduction 11343 & 1 Added Passive Skill is Stormrider 11349
+
+// By popularity
+// local_affliction_notable_widespread_destruction
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_widespread_destruction] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare"       # [local_affliction_notable_widespread_destruction] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_renewal
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_renewal] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_first_among_equals
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel"  && [Rarity] == "Rare" 	# [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_replenishing_presence
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel"  && [Rarity] == "Rare" 	# [local_affliction_notable_replenishing_presence] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_prismatic_heart
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_prismatic_heart] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_vengeful_commander
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_vengeful_commander] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_wicked_pall
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_wicked_pall] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_exposure_therapy
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_exposure_therapy] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_rotten_claws
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_rotten_claws] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_rotten_claws] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_energy_from_naught
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_energy_from_naught] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_energy_from_naught] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_unholy_grace
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_unholy_grace] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_unholy_grace] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_disorienting_display
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_disorienting_display] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_disorienting_display] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_feasting_fiends
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_feasting_fiends] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_doryanis_lesson
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_doryanis_lesson] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_doryanis_lesson] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_vicious_bite
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_vicious_bite] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_vicious_bite] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_spiked_concoction
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_spiked_concoction] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_spiked_concoction] >= "1" && [StashItem] == "true" 
+
+// local_affliction_notable_brush_with_death
+[Type] == "Small Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Magic"     # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Magic"      # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Medium Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" 	    # [local_affliction_notable_brush_with_death] >= "1" && [StashItem] == "true" 
+
+
+// Unique Prismatic Jewels are worth keeping
+[Type] == "Prismatic Jewel" && [Rarity] == "Unique"     # [StashItem] == "true"
+
+// Unique Primordial & The Anima Stone
+// Primordial Jewels
+[Type] == "Prismatic Jewel" && [Rarity] == "Unique"     # [number_of_golems_allowed_with_3_primordial_jewels] >= "1" && [StashItem] == "true" // The Anima Stone
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" 	    # [golems_larger_aggro_radius] >= "1" && [StashItem] == "true" // Primordial Might
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" 	    # [golem_cooldown_recovery_+%] >= "1" && [StashItem] == "true" // Primordial Harmony
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [golem_attack_and_cast_speed_+%] >= "1" && [StashItem] == "true" // Primordial Eminence
+
+// Unique Timeless Jewels are worth keeping
+[Type] == "Timeless Jewel" && [Rarity] == "Unique"      # [StashItem] == "true"
+
+// Cobalt Jewels
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [StashItem] == "true" // Pick all unique Cobalt Jewels
+
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [maximum_life_+%] >= "6" && [ForceSellItem] == "true" // Anatomical Knowledge
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_damage_+%] >= "8" && [ForceSellItem] == "true" // Army of Bones
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_jewel_nearby_passives_str_to_int] >= "1" && [ForceSellItem] == "true" // Brute Force Solution 
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [mana_regeneration_rate_+%] >= "20" && [ForceSellItem] == "true" // Clear Mind
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_elemental_resistance_%] >= "7" && [ForceSellItem] == "true" // Dead Reckoning
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_unique_jewel_chaos_damage_+%_per_10_int_in_radius] >= "1" && [ForceSellItem] == "true" // Eldritch Knowledge
+// [Type] == "Cobalt Jewel" && [Rarity] == "Unique"     # [maximum_energy_shield_+%] >= "8" && [ForceSellItem] == "true" // Energy From Within
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_jewel_nearby_passives_dex_to_int] >= "1" && [ForceSellItem] == "true" // Fertile Mind 
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [minion_maximum_life_+%] >= "5" && [ForceSellItem] == "true" // Fortified Legion
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [maximum_mana_+%] >= "15" && [ForceSellItem] == "true" // Healthy Mind
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [chance_to_gain_unholy_might_on_melee_kill_%] >= "5" && [ForceSellItem] == "true" // Malicious Intent
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [fire_damage_+%] >= "5" && [ForceSellItem] == "true" // Rolling Flames
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [local_unique_jewel_spectres_gain_soul_eater_on_kill_%_chance_with_50_int_in_radius] >= "1" && [ForceSellItem] == "true" // Unending Hunger
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique"        # [cold_damage_+%] >= "5" && [ForceSellItem] == "true" // Winter's Bounty
+
+
+// Crimson Jewels
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [StashItem] == "true" // Pick all unique Crimson Jewels
+
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [dexterity_+%] >= "4" && [ForceSellItem] == "true" // Brawn
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_jewel_nearby_passives_int_to_str] >= "1" && [ForceSellItem] == "true" // Efficient Training
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_energy_shield_increases_applies_to_armour_doubled] >= "1" && [ForceSellItem] == "true" // Energised Armour
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_damage_increases_applies_to_fire_damage] >= "1" && [ForceSellItem] == "true" // Fireborn
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [life_regeneration_rate_+%] >= "1" && [ForceSellItem] == "true" // Fragile Bloom
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_jewel_nearby_passives_dex_to_str] >= "1" && [ForceSellItem] == "true" // Inertia
+// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_with_4_notables_gain_X_random_rare_monster_mods_on_kill] >= "5" && [ForceSellItem] == "true" // Inspired Learning
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [fire_damage_+%] >= "18" && [ForceSellItem] == "true" // Izaro's Turmoil
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [minimum_added_fire_damage_per_active_buff] >= "1" && [ForceSellItem] == "true" // Mantra of Flames
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [melee_range_+_while_unarmed] >= "1" && [ForceSellItem] == "true" // Martial Artistry
+// [Type] == "Crimson Jewel" && [Rarity] == "Unique"    # [golems_larger_aggro_radius] >= "1" && [ForceSellItem] == "true" // Primordial Might
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_dex_and_int_apply_to_str_melee_damage_bonus_in_radius] >= "1" && [ForceSellItem] == "true" // Might in All Forms
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [totem_number_of_additional_projectiles] >= "2" && [ForceSellItem] == "true" // Rain of Splinters
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_ground_slam_angle_+%_with_50_str_in_radius] >= "1" && [ForceSellItem] == "true" // Rapid Expansion
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_glacial_hammer_item_rarity_on_shattering_enemy_+%_with_50_strength_in_radius] >= "20" && [ForceSellItem] == "true" // Shattered Chains
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_totem_life_+X%_per_10_str_in_radius] >= "3" && [ForceSellItem] == "true" // Spire of Stone
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_vigilant_strike_fortifies_nearby_allies_for_x_seconds_with_50_str_in_radius] >= "3" && [ForceSellItem] == "true" // The Vigil
+[Type] == "Crimson Jewel" && [Rarity] == "Unique"       # [local_unique_jewel_heavy_strike_chance_to_deal_double_damage_%_with_50_strength_in_radius] >= "10" && [ForceSellItem] == "true" // Weight of the Empire
+
+
+// Viridian Jewel
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 		# [StashItem] == "true" // Pick all unique Viridian Jewels
+
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [minion_movement_speed_+%] >= "5" && [ForceSellItem] == "true" // Apparitions
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_jewel_nearby_passives_int_to_dex] >= "1" && [ForceSellItem] == "true" // Careful Planning
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_physical_damage_increases_applies_to_cold_damage] >= "1" && [ForceSellItem] == "true" // Cold Steel
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_jewel_nearby_passives_str_to_dex] >= "1" && [ForceSellItem] == "true" // Fluid Motion
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_viper_strike_attack_damage_per_poison_on_enemy_+%_with_50_dexterity_in_radius] >= "4" && [ForceSellItem] == "true" // Growing Agony
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [damage_+%_per_equipped_magic_item] >= "20" && [ForceSellItem] == "true" // Hidden Potential
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [movement_velocity_+%_while_ignited] >= "10" && [ForceSellItem] == "true" // Hotfooted
+//[Type] == "Viridian Jewel" && [Rarity] == "Unique"    # [local_unique_jewel_nearby_disconnected_passives_can_be_allocated] >= "1" && [ForceSellItem] == "true" // Intuitive Leap
+// [Type] == "Viridian Jewel" && [Rarity] == "Unique"   # [local_unique_jewel_melee_applies_to_bow] >= "1" && [ForceSellItem] == "true" // Lioneye's Fall
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_burning_arrow_spread_burning_ground_when_igniting_enemy_on_hit_%_with_50_dexterity_in_radius] >= "10" && [ForceSellItem] == "true" // Pitch Darkness
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_evasion_rating_+%_per_X_dex_in_radius] >= "1" && [ForceSellItem] == "true" // Pugilist
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_animate_weapon_can_animate_up_to_x_additional_ranged_weapons_with_50_dex_in_radius] >= "4" && [ForceSellItem] == "true" // Spirit Guards
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [attack_minimum_added_lightning_damage] >= "1" && [ForceSellItem] == "true" // Static Electricity
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_spectral_throw_damage_for_each_enemy_hit_with_spectral_weapon_+%_with_50_dexterity_in_radius] >= "4" && [ForceSellItem] == "true" // Steel Spirit 
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" 	    # [local_unique_jewel_barrage_final_volley_fires_x_additional_projectiles_simultaneously_with_50_dex_in_radius] >= "2" && [ForceSellItem] == "true" // Volley Fire 
+// [Type] == "Viridian Jewel" && [Rarity] == "Unique"   # [local_jewel_copy_stats_from_unallocated_non_notable_passives_in_radius] >= "1" && [ForceSellItem] == "true" // Unnatural Instinct
+// [Type] == "Viridian Jewel" && [Rarity] == "Unique"   # [golem_attack_and_cast_speed_+%] >= "16" && [ForceSellItem] == "true" // Primordial Eminence
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+//                                                                                 //
+//                                  M A P S                                        //
+//                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////
+
+// Take all maps - Handling what maps to run is done in the Map.ipd
+
+[Category] == "Map" && [MapTier] >= "1"         # [StashItem] == "true" // Take all Maps & Ignore all Contract/Blueprints/Incubators
+// [Category] == "Map"                          # [StashItem] == "true" // Take all Maps/Contract/Blueprints/Incubators
+
+// [Category] == "Map" && [Rarity] == "Normal" 	# [StashItem] == "true" // Take all normal maps
+// [Category] == "Map" && [Rarity] == "Magic" 	# [StashItem] == "true" // Take all magic maps
+// [Category] == "Map" && [Rarity] == "Rare" 	# [StashItem] == "true" // Take all rare maps
+// [Category] == "Map" && [Rarity] == "Unique" 	# [StashItem] == "true" // Take all unique maps
+
+
+// Sacrifice Set
+
+[Type] == "Sacrifice at Dawn" 		# [StashItem] == "true"
+[Type] == "Sacrifice at Noon" 		# [StashItem] == "true"
+[Type] == "Sacrifice at Dusk" 		# [StashItem] == "true"
+[Type] == "Sacrifice at Midnight" 	# [StashItem] == "true"
+
+[Type] == "Mortal Grief" 			# [StashItem] == "true"
+[Type] == "Mortal Rage" 			# [StashItem] == "true"
+[Type] == "Mortal Ignorance" 		# [StashItem] == "true"
+[Type] == "Mortal Hope" 			# [StashItem] == "true"
+
+// Other
+
+[Type] == "Divine Vessel" 			# [StashItem] == "true"
+
+// Base Map Fragments
+[Type] == "Fragment of the Hydra" 		# [StashItem] == "true"
+[Type] == "Fragment of the Chimera" 	# [StashItem] == "true"
+[Type] == "Fragment of the Phoenix" 	# [StashItem] == "true"
+[Type] == "Fragment of the Minotaur" 	# [StashItem] == "true"
+
+[Type] == "Fragment of Purification" 	# [StashItem] == "true"
+[Type] == "Fragment of Constriction" 	# [StashItem] == "true"
+[Type] == "Fragment of Eradication" 	# [StashItem] == "true"
+[Type] == "Fragment of Enslavement" 	# [StashItem] == "true"
+
+// Archnemesis Fragment
+[Type] == "Al-Hezmin's Crest" 			# [StashItem] == "true"
+[Type] == "Baran's Crest"				# [StashItem] == "true"
+[Type] == "Drox's Cres" 				# [StashItem] == "true"
+[Type] == "Veritania's Crest" 			# [StashItem] == "true"
+
+// Atlas Upgrade Item
+[Type] == "Ceremonial Voidstone"		# [StashItem] == "true"
+[Type] == "Decayed Voidstone" 			# [StashItem] == "true"
+[Type] == "Grasping Voidstone"			# [StashItem] == "true"
+[Type] == "Omniscient Voidstone"		# [StashItem] == "true"
+
+// Misc Map Item
+[Type] == "Writhing Invitation"						# [StashItem] == "true"
+[Type] == "Screaming Invitation"					# [StashItem] == "true"
+[Type] == "Polaric Invitation"						# [StashItem] == "true"
+[Type] == "Incandescent Invitation"					# [StashItem] == "true"
+[Type] == "Maven's Invitation: The Atlas"			# [StashItem] == "true"
+[Type] == "Maven's Invitation: The Elderslayers"	# [StashItem] == "true"
  
  
 /////////////////////////////////////////////////////////////////////////////////////
